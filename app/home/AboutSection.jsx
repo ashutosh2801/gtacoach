@@ -35,6 +35,14 @@ export default function AboutSection() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi
             ut aliquip.
           </p>
+          <div className="mt-6">
+            <b>Our Trusted Partners</b>
+            <div className="grid grid-cols-3 gap-2 md:gap-6 mt-3">
+              <img src="../../partners/netflix.jpg" alt="netflix" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+              <img src="../../partners/air-canada.jpg" alt="air-canada" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+              <img src="../../partners/ax.jpg" alt="ax" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+            </div>
+          </div>
         </div>
 
         {/* RIGHT IMAGES */}
@@ -72,7 +80,7 @@ export default function AboutSection() {
             {/* Text */}
             <div>
               <p className="text-3xl font-extrabold text-gray-900 leading-none">
-                37<span className="webText">+</span>
+                37 <span className="webText">+</span>
               </p>
               <p className="text-sm text-gray-500 mt-1">
                 Years Experience

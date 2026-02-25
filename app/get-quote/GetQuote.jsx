@@ -51,7 +51,7 @@ const GetQuote = () => {
         <div className="container mx-auto px-6">
 
           {/* STEP 1 */}
-          {/* <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center">
             <h2 className="text-xl md:text-2xl font-semibold">
               Trip Information
             </h2>
@@ -60,6 +60,7 @@ const GetQuote = () => {
 
           <div className="border-t border-gray-200 mt-2 mb-5" />
 
+          {/* Starting From */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             <div className="col-span-2">
               <label className="text-sm font-medium flex text-gray-800">
@@ -100,6 +101,7 @@ const GetQuote = () => {
             </div>
           </div>
 
+          {/* Destination */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             <div className="col-span-2">
               <label className="text-sm font-medium w-full flex text-gray-800">
@@ -141,6 +143,7 @@ const GetQuote = () => {
             </div>
           </div>
 
+          {/* Notes + Upload */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
               <label className="text-sm font-medium flex text-gray-800">
@@ -165,6 +168,7 @@ const GetQuote = () => {
             </div>
           </div>
 
+          {/* Bottom Row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div>
               <label className="text-sm font-medium w-full flex text-gray-800">
@@ -194,14 +198,14 @@ const GetQuote = () => {
                 <option>Select Preferred Bus Type</option>
               </select>
             </div>
-          </div> */}
+          </div>
 
           {/* STEP 2 */}
           <div className="flex justify-between items-center">
             <h2 className="text-xl md:text-2xl font-semibold">
               Contact Information
             </h2>
-            {/* <span className="text-gray-500 text-sm">Step 2 of 2</span> */}
+            <span className="text-gray-500 text-sm">Step 2 of 2</span>
           </div>
 
           <div className="border-t border-gray-200 mt-2 mb-5" />
@@ -222,7 +226,7 @@ const GetQuote = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
             <div>
               <label className="text-sm font-medium w-full flex text-gray-800">
                 E-mail address <span className="text-red-500">*</span>
@@ -237,23 +241,9 @@ const GetQuote = () => {
               <input className="w-full mt-1 h-11 border rounded-lg bg-gray-100 border-gray-200 px-3 text-sm focus:outline-none" />
             </div>
 
-            {/* <div>
+            <div>
               <label className="text-sm font-medium w-full flex text-gray-800">Company</label>
               <input className="w-full mt-1 h-11 border rounded-lg bg-gray-100 border-gray-200 px-3 text-sm focus:outline-none" />
-            </div> */}
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 mb-6">
-            <div>
-              <label className="text-sm font-medium w-full flex text-gray-800">
-                Message <span className="text-red-500">*</span>
-              </label>
-              <textarea
-                    rows="5"
-                    placeholder=""
-                    className="w-full mt-1 border rounded-lg bg-gray-100 border-gray-200 p-3 text-sm focus:outline-none"
-                    required
-                ></textarea>
             </div>
           </div>
 

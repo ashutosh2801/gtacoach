@@ -2,7 +2,6 @@ import React from 'react'
 import Slider from './HeroSlider'
 import BusType from './BusTypes'
 import About from './AboutSection'
-import Partners from './Partners'
 import WhyUs from "./WhyUs";
 import HomeServices from './HomeServices'
 import Banner from './Banner'
@@ -17,11 +16,13 @@ const Home = () => {
 
       <About />
 
-      <Partners />
+      <WhyUs />
 
       <HomeServices />
 
       <Banner />
+
+      <Testimonials />
 
     </div>
   )

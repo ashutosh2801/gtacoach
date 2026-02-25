@@ -141,7 +141,11 @@ const ContactUs = () => {
             <div className="bg-white shadow-lg rounded-lg p-8 md:h-[640px]">
 
             <h2 className="text-2xl font-semibold mb-6 text-gray-900">
-                Get In Touch
+              Get In {" "}
+              <span className="relative inline-block z-[5]">
+              Touch
+              <span className="absolute left-0 bottom-1.5 w-full h-[7px] webBG z-[-1] opacity-60"></span>
+              </span>
             </h2>
 
             <form className="space-y-6">

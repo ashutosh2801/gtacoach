@@ -6,15 +6,15 @@ body {
 }
 
 .webBG {
-    background-color: #C1272D;
+    background-color: #A88F5E;
 }
 
 .webText {
-    color: #C1272D;
+    color: #A88F5E;
 }
 
 .webBorderColor {
-    border-color: #C1272D;
+    border-color: #A88F5E;
 }
 
 @media (width >= 80rem) {

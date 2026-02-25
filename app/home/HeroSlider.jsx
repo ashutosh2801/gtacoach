@@ -32,7 +32,7 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative h-[400px] lg:h-[550px] overflow-hidden">
+    <section className="relative h-[500px] lg:h-screen overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
@@ -53,9 +53,9 @@ export default function HeroSlider() {
           <div className="absolute inset-0 bg-black/50" />
 
           {/* Centered Text */}
-          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-8 md:top-10">
+          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-2 md:top-15">
             <div className="max-w-3xl">
-              <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
+              <h1 className="text-3xl md:text-6xl font-extrabold leading-tight">
                 {slide.title} <br />
                 <span className="webText">{slide.highlight}</span>{" "}
                 <br />

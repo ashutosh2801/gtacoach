@@ -23,7 +23,7 @@ const Banner = () => {
 
         {/* Main Heading */}
         <h2 className="text-white text-3xl md:text-4xl lg:text-4xl font-bold leading-tight mb-6">
-          Group Transportation Just Got<br></br> Easier With Our {" "}
+          Group Transportation Just Got <br /> Easier With Our {" "}
           <span className="relative inline-block z-[5]">
             Bus Rental
             <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>

@@ -14,7 +14,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#2f3038] text-white overflow-hidden">
+    <footer className="relative bg-[#091622] text-white overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10 bg-cover bg-center" />
 

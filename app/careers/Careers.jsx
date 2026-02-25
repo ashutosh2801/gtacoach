@@ -49,12 +49,11 @@ const Careers = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center">
                 {/* LEFT CONTENT */}
                 <div>
-
                     <h2 className="text-3xl font-semibold text-gray-800 mb-6">
                       Drive With {" "}
                       <span className="relative inline-block z-[5]">
-                        Excellence
-                        <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
+                      Excellence
+                      <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
                       </span>
                     </h2>
 

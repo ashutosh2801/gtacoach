@@ -17,13 +17,13 @@ export default function BusTypes() {
                     Our Buses
                 </span>
 
-                <h1 className="text-3xl lg:text-4xl font-semibold leading-tight text-gray-900">
+                <h2 className="text-3xl lg:text-4xl font-semibold leading-tight text-gray-900">
                     Modern, Comfortable, and {" "}
                     <span className="relative inline-block z-[5]">
                     Reliable
                     <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
-                    </span>{" "}
-                </h1>
+                    </span>
+                </h2>
 
                 <p className="text-gray-600 leading-relaxed text-sm mt-5 mb-2 md:mb-8">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
@@ -146,7 +146,7 @@ export default function BusTypes() {
                     </div>
                 </SwiperSlide>
 
-                {/* <SwiperSlide>
+                <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
                             <div className="flex justify-end pt-2 pr-2">
@@ -187,7 +187,7 @@ export default function BusTypes() {
                             </ul>
                         </div>
                     </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
