@@ -22,10 +22,13 @@ const Banner = () => {
         </p>
 
         {/* Main Heading */}
-        <h1 className="text-white text-3xl md:text-4xl lg:text-4xl font-bold leading-tight mb-6">
-          Group Transportation Just Got <br />
-          Easier With Our Bus Rental
-        </h1>
+        <h2 className="text-white text-3xl md:text-4xl lg:text-4xl font-bold leading-tight mb-6">
+          Group Transportation Just Got <br /> Easier With Our {" "}
+          <span className="relative inline-block z-[5]">
+            Bus Rental
+            <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
+          </span>
+        </h2>
 
         {/* Description */}
         <p className="text-gray-200 max-w-2xl mx-auto mb-8 text-sm">

@@ -7,6 +7,55 @@ export const metadata: Metadata = {
   title: "GTACoach | Toronto Bus Charter & Transportation Services",
   description:
     "GTACoach provides reliable Toronto bus charter and transportation services for corporate events, schools, weddings, and group travel across the GTA. Safe, comfortable, and professional service.",
+  keywords:
+    "Toronto bus charter, GTA coach rental, charter bus Toronto, school bus rental Toronto, corporate transportation GTA, wedding bus rental Toronto",
+
+  metadataBase: new URL("https://gtacoach.com"),
+
+  alternates: {
+    canonical: "/", 
+    languages: {
+      "en-ca": "https://gtacoach.com",
+    },
+  },
+
+  robots: "index, follow",
+
+  openGraph: {
+    title: "GTACoach | Toronto Bus Charter & Transportation Services",
+    description:
+      "Reliable and professional Toronto bus charter services for corporate events, schools, weddings, and group travel across the GTA.",
+    url: "https://gtacoach.com/",
+    siteName: "GTACoach",
+    locale: "en_CA",
+    type: "website",
+    images: [
+      {
+        url: "https://gtacoach.com/slides/slide-2.jpg",
+        width: 1920,
+        height: 1080,
+        alt: "GTACoach Toronto Bus Charter Service",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "GTACoach | Toronto Bus Charter & Transportation Services",
+    description:
+      "Professional Toronto bus charter services for corporate, school, wedding, and group transportation across the GTA.",
+    images: ["https://gtacoach.com/slides/slide-2.jpg"],
+  },
+
+  other: {
+    "DC.title":
+      "GTACoach | Toronto Bus Charter & Transportation Services",
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

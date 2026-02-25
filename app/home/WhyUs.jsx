@@ -41,7 +41,7 @@ export default function WhyUs() {
         <div className="space-y-6">
           <Feature
             icon={<TruckIcon />}
-            title="Over 25 Years Of Experience"
+            title="Over 37 Years Of Experience"
             text="GTA Crew Services, incorporated in 1989 and has been in the business of passenger transportation since 1991"
           />
 

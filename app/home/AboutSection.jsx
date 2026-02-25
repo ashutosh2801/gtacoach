@@ -14,7 +14,7 @@ export default function AboutSection() {
           </p>
 
           <h2 className="text-3xl lg:text-4xl font-semibold leading-tight text-gray-900">
-            More Than 25 Years We <br />
+            More Than 37 Years We <br />
             Provide{" "}
             <span className="relative inline-block z-[5]">
               Bus Charter
@@ -80,7 +80,7 @@ export default function AboutSection() {
             {/* Text */}
             <div>
               <p className="text-3xl font-extrabold text-gray-900 leading-none">
-                25<span className="webText">+</span>
+                37 <span className="webText">+</span>
               </p>
               <p className="text-sm text-gray-500 mt-1">
                 Years Experience

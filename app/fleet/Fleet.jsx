@@ -251,9 +251,14 @@ export default function Fleet() {
       <section className="bg-[#091622] text-white py-15">
         <div className="container mx-auto px-6 text-center">
 
-          <h2 className="text-3xl font-semibold mb-6">
-            Estimated Motor Coach Bus Prices in Top Cities
-          </h2>
+            <h2 className="text-3xl font-semibold mb-6">
+                Estimated Motor Coach {" "}
+                <span className="relative inline-block z-[5]">
+                Bus Prices
+                <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
+                </span> {" "}
+                in Top Cities
+            </h2>
 
           <p className="max-w-3xl mx-auto text-sm text-gray-200 mb-12">
             Indicative prices for motor coach bus rentals in major cities are shown below. 
@@ -340,9 +345,13 @@ export default function Fleet() {
       <section className="py-15 bg-gray-100">
         <div className="container mx-auto px-6 text-center">
 
-          <h2 className="text-3xl font-semibold mb-6">
-            Discover the Motor Coach Bus Experience
-          </h2>
+            <h2 className="text-3xl font-semibold mb-6">
+                Discover the Motor Coach {" "}
+                <span className="relative inline-block z-[5]">
+                Bus Experience
+                <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
+                </span>
+            </h2>
 
           <p className="max-w-3xl mx-auto text-gray-600 text-sm mb-12">
             Step inside and experience spacious comfort. Relax in reclining seats
@@ -369,8 +378,12 @@ export default function Fleet() {
         <div className="container mx-auto px-6">
 
           <h2 className="text-3xl font-semibold mb-6">
-            Featured Motor Coach Bus Amenities
-          </h2>
+                Featured Motor Coach {" "}
+                <span className="relative inline-block z-[5]">
+                Bus Amenities
+                <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
+                </span>
+            </h2>
 
           <p className="text-gray-600 max-w-2xl mx-auto text-sm mb-12">
             With BusBank’s motor coach buses, customize your group ride just
