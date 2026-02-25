@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from "../app/home/page"
+import GetQuote from './GetQuote'
 
 const page = () => {
   return (
-    <Home />
-  );
+    <GetQuote />
+  )
 }
 
 export default page

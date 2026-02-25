@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from "../app/home/page"
+import Fleet from './Fleet'
 
 const page = () => {
   return (
-    <Home />
-  );
+    <Fleet />
+  )
 }
 
 export default page

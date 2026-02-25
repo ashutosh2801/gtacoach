@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from "../app/home/page"
+import Careers from './Careers'
 
 const page = () => {
   return (
-    <Home />
-  );
+    <Careers />
+  )
 }
 
 export default page

@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from "../app/home/page"
+import ContactUs from './ContactUs'
 
 const page = () => {
   return (
-    <Home />
-  );
+    <ContactUs />
+  )
 }
 
 export default page
