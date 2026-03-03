@@ -12,7 +12,7 @@ export default function BusTypes() {
 
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row justify-between">
-            <div className="max-w-3xl mb-2">
+            <div className="max-w-5xl mb-2">
                 <span className="webText font-semibold mb-3 text-sm uppercase tracking-widest">
                     Our Buses
                 </span>
@@ -26,8 +26,7 @@ export default function BusTypes() {
                 </h2>
 
                 <p className="text-gray-600 leading-relaxed text-sm mt-5 mb-2 md:mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                    luctus nec ullamcorper mattis, pulvinar dapibus leo
+                    Reliable Bus Charter Services Across Toronto & Beyond <br></br>We offer safe, comfortable, and tailored transportation for groups of any size. Whether it’s a corporate event, wedding, airport transfer, or school trip, our team makes travel simple and enjoyable.
                 </p>
             </div>
             <div>
@@ -75,28 +74,28 @@ export default function BusTypes() {
                             className="mx-auto h-50 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6">
+                        <div className="p-6 min-h-[460px]">
                             <h3 className="text-xl font-semibold mb-4">Coach Buses</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                45-56 Passengers
+                            Luxury full-size coaches designed for corporate events, long-distance tours, and premium group travel.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Luxury Options Available
+                            Plush reclining seats with spacious legroom for maximum comfort on extended journeys.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Onboard Restroom, WiFi Service
+                                Large panoramic windows for a scenic, elevated travel experience.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Reclining Seats, Power outlets
+                                Professional, uniformed drivers committed to punctuality, safety, and exceptional service.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Corporate Retreats, Wedding Transport, Events and Conferences, 250+ Mile Trips
+                                The perfect choice for cross-border travel across Canada and the USA.
                             </li>
                             </ul>
                         </div>
@@ -118,28 +117,28 @@ export default function BusTypes() {
                             className="mx-auto h-50 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6">
+                        <div className="p-6 min-h-[460px]">
                             <h3 className="text-xl font-semibold mb-4">Mini Buses</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                15-35 Passengers
+                                Premium mid-size vehicles ideal for corporate outings, private events, and airport transfers.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Overhead Storage
+                            Comfortable, modern interiors designed for smooth and stylish city travel.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                WiFi Service
+                            Efficient maneuverability for downtown routes and event venues.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Reclining Seats
+                                Ideal for business teams, wedding guests, and private group transportation.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Corporate Events, Employee Shuttles, Field Trips, Short-Distance Travel, Shuttles & more.
+                                Reliable, on-time service tailored to your schedule.
                             </li>
                             </ul>
                         </div>
@@ -161,28 +160,28 @@ export default function BusTypes() {
                             className="mx-auto h-50 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6">
+                        <div className="p-6 min-h-[460px]">
                             <h3 className="text-xl font-semibold mb-4">School Buses</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                44-65 (Standard), 10-27 (Mini)
+                                Trusted and dependable transportation for schools, camps, sports teams, and community groups.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Most Cost Effective, Large Capacity
+                                High safety standards with well-maintained vehicles and experienced drivers.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                GPS Tracking
+                                Practical solution for large group transfers and organized outings.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Fixed Bench Seats
+                                Affordable without compromising reliability.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                School Trips, Sports Teams, Under 150 Mile Trips
+                                Flexible scheduling to meet your group’s needs.
                             </li>
                             </ul>
                         </div>
@@ -204,28 +203,28 @@ export default function BusTypes() {
                             className="mx-auto h-50 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6">
+                        <div className="p-6 min-h-[460px]">
                             <h3 className="text-xl font-semibold mb-4">Sprinter Vans</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                8-14 Passengers
+                                Executive-style vans perfect for small groups, corporate executives, and VIP clients.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Utility & Luxury Options Available
+                                Discreet, comfortable, and refined travel experience.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                WiFi Services, Charging Ports
+                                Ideal for airport pickups, weddings, private tours, and business travel.    
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Plush Interiors With Individual Seating (Optional)
+                                Smooth ride with flexible luggage space for added convenience.
                             </li>
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Shuttles, Airport Transfers, Short Trips
+                                Personalized service designed around your itinerary.
                             </li>
                             </ul>
                         </div>

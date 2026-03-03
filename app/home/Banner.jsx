@@ -32,8 +32,7 @@ const Banner = () => {
 
         {/* Description */}
         <p className="text-gray-200 max-w-2xl mx-auto mb-8 text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          With our premium rentals, you can book the right vehicle for your needs, from luxury coach buses to smaller vans. We offer hourly and long-distance packages to fit your schedule and budget.
         </p>
 
         {/* Button */}

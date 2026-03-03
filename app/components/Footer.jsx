@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-300 leading-relaxed mb-8 max-w-sm text-sm">
-              Molestie ad feugiat est facilisi faucibus magnis. Convalis magna pellentesque odio fusce turpis elit.
+              Driven by experience and dedicated to your satisfaction - we deliver transportation services that go the extra mile, every time.
             </p>
 
             <a

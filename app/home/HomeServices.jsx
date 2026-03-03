@@ -10,32 +10,32 @@ const services = [
   {
     title: "Group Charters to Canada/USA",
     image: "../../services/1.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    desc: "We offer custom coach services for large groups going to conferences, festivals, or tours.",
   },
   {
     title: "Group Sporting Events",
     image: "../../services/2.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    desc: "We provide reliable rides for teams and fans heading to games and tournaments.",
   },
   {
     title: "Airport Shuttles & Transfers",
     image: "../../services/3.jpg",
-    desc: "Lorem ipsum dolor sit ametconse ctetur adipiscing elit.",
+    desc: "We offer on-time rides to and from major airports, with plenty of room for luggage.",
   },
   {
     title: "Corporate Events",
     image: "../../services/4.jpg",
-    desc: "Lorem ipsum dolor sitamet consectetur adipiscing elit.",
+    desc: "Our professional group transport helps your team arrive on time and stress-free.",
   },
   {
     title: "City Tours",
     image: "../../services/5.jpg",
-    desc: "Lorem ipsum dolor sit am etconsec tetur adipiscing elit.",
+    desc: "Ride in comfort on our buses for guided tours of Toronto and nearby attractions.",
   },
   {
     title: "Casino Charters",
     image: "../../services/6.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    desc: "Sit back and enjoy the ride as we take you and your group comfortably to popular casino destinations.",
   },
 ];
 
@@ -43,7 +43,7 @@ const HomeServices = () => {
   return (
     <section className="py-15 bg-white">
       {/* Heading */}
-      <div className="text-center max-w-3xl mx-auto mb-14">
+      <div className="text-center max-w-5xl mx-auto mb-14">
         <p className="webText font-semibold tracking-wide text-sm uppercase tracking-widest">
           Our Services
         </p>
@@ -58,10 +58,7 @@ const HomeServices = () => {
         </h2>
 
         <p className="text-gray-600 text-sm mt-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor
-          <br />
-          incididunt ut labore et dolore magna aliqua.
+          Take a look at our modern, comfortable fleet, which includes spacious coach buses, mini-buses, and sprinter vans. Every vehicle has amenities like Wi-Fi, climate control, and comfortable seating to help you relax or get work done during your trip.
         </p>
       </div>
 
@@ -107,7 +104,7 @@ const HomeServices = () => {
                     {item.title}
                   </h3>
 
-                  <p className="text-sm text-gray-700 mb-4">
+                  <p className="text-sm text-gray-700 mb-4 min-h-[60px]">
                     {item.desc}
                   </p>
                 </div>

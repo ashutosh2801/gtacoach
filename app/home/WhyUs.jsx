@@ -60,7 +60,7 @@ export default function WhyUs() {
           <Feature
             icon={<StarIcon />}
             title="Safe, Reliable & Professional"
-            text="We provide safe and professional transportation, and strive to be the leaders in crew and charter transportation for Canada and USA."
+            text="At GTACoach, safety and reliability come first. We keep our vehicles in top condition, and our drivers are fully trained to make sure every trip is smooth and on time."
           />
         </div>
 

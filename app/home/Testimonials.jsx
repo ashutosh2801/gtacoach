@@ -6,14 +6,32 @@ import "swiper/css";
 
 const testimonials = [
   {
-    text: `Nisi habitasse maximus vehicula consectetur class fames pharetra phasellus curabitur nulla. Integer ad orci tempor magna vestibulum malesuada lorem.`,
-    name: "Susan Hollis",
-    designation: "Designation",
+    text: `Excellent service from planning to drop-off. The drivers were professional and punctual.`,
+    name: "Susan H.",
   },
   {
-    text: `Placerat libero hendrerit quis habitant lobortis pellentesque tellus. Integer ad orci tempor magna vestibulum malesuada lorem.`,
-    name: "John Carter",
-    designation: "Designation",
+    text: `Comfortable buses, great amenities, and smooth travel — highly recommend for any group event.`,
+    name: "John C.",
+  },
+  {
+    text: `GTACoach handled our corporate conference transportation flawlessly. The bus arrived early, the driver was professional, and the entire experience was smooth from start to finish. Highly recommended!`,
+    name: "Michael R.",
+  },
+  {
+    text: `We booked GTACoach for our wedding guests, and they exceeded expectations. The buses were clean, comfortable, and perfectly on schedule. It took so much stress off our special day.`,
+    name: "Amanda L.",
+  },
+  {
+    text: `Our group airport transfer was seamless. Plenty of luggage space, comfortable seating, and punctual service. We’ll definitely use them again.`,
+    name: "David S.",
+  },
+  {
+    text: `Safety was our biggest concern for our school trip, and GTACoach delivered. The driver was courteous and professional, and the students had a comfortable ride.`,
+    name: "Sarah T.",
+  },
+  {
+    text: `We hired GTACoach for our team’s tournament travel, and the experience was excellent. Reliable, affordable, and very well organized. Great service!`,
+    name: "Jason M.",
   },
 ];
 
@@ -44,7 +62,7 @@ export default function Testimonials() {
             </h2>
 
             <p className="text-gray-600 text-sm mt-3 max-w-md">
-              Placerat libero hendrerit quis habitant libero lobortis pellentesque tellus.
+              Hear from our clients about their experiences and the results we’ve delivered.
             </p>
 
             {/* SWIPER */}
