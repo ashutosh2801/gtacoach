@@ -161,18 +161,18 @@ function AboutSection() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mt-6 text-gray-600 leading-relaxed max-w-xl text-sm",
                             children: [
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
+                                "GTACoach has over 37 years of experience in passenger transportation and is known for excellence and professionalism. We offer custom charter services for corporate groups, airport transfers, sporting events, and leisure travel throughout Canada and the USA. ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 23
+                                    lineNumber: 29,
+                                    columnNumber: 272
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 32,
-                                    columnNumber: 32
+                                    lineNumber: 29,
+                                    columnNumber: 281
                                 }, this),
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+                                "Our goal is to provide smooth transportation with skilled drivers, dependable vehicles, and excellent customer support."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/home/AboutSection.jsx",
@@ -186,7 +186,7 @@ function AboutSection() {
                                     children: "Our Trusted Partners"
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -198,7 +198,7 @@ function AboutSection() {
                                             className: "object-cover border border-gray-200 rounded-lg px-5 py-3"
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/AboutSection.jsx",
-                                            lineNumber: 41,
+                                            lineNumber: 34,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -207,7 +207,7 @@ function AboutSection() {
                                             className: "object-cover border border-gray-200 rounded-lg px-5 py-3"
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/AboutSection.jsx",
-                                            lineNumber: 42,
+                                            lineNumber: 35,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -216,19 +216,19 @@ function AboutSection() {
                                             className: "object-cover border border-gray-200 rounded-lg px-5 py-3"
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/AboutSection.jsx",
-                                            lineNumber: 43,
+                                            lineNumber: 36,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/home/AboutSection.jsx",
-                            lineNumber: 38,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
@@ -250,12 +250,12 @@ function AboutSection() {
                                 className: "object-cover rounded-2xl"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/AboutSection.jsx",
-                                lineNumber: 52,
+                                lineNumber: 45,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/home/AboutSection.jsx",
-                            lineNumber: 51,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -268,12 +268,12 @@ function AboutSection() {
                                 className: "rounded-lg object-cover"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/AboutSection.jsx",
-                                lineNumber: 63,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/home/AboutSection.jsx",
-                            lineNumber: 62,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,12 +285,12 @@ function AboutSection() {
                                         className: "h-7 w-7 webText"
                                     }, void 0, false, {
                                         fileName: "[project]/app/home/AboutSection.jsx",
-                                        lineNumber: 77,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 76,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,13 +304,13 @@ function AboutSection() {
                                                     children: "+"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 76,
                                                     columnNumber: 20
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/AboutSection.jsx",
-                                            lineNumber: 82,
+                                            lineNumber: 75,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -318,25 +318,25 @@ function AboutSection() {
                                             children: "Years Experience"
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/AboutSection.jsx",
-                                            lineNumber: 85,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/AboutSection.jsx",
-                                    lineNumber: 81,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/home/AboutSection.jsx",
-                            lineNumber: 73,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/home/AboutSection.jsx",
-                    lineNumber: 49,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this)
             ]
@@ -359,7 +359,7 @@ function AboutSection() {
                 className: "h-5 w-5 text-orange-500 flex-shrink-0"
             }, void 0, false, {
                 fileName: "[project]/app/home/AboutSection.jsx",
-                lineNumber: 101,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -367,13 +367,13 @@ function AboutSection() {
                 children: text
             }, void 0, false, {
                 fileName: "[project]/app/home/AboutSection.jsx",
-                lineNumber: 102,
+                lineNumber: 95,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/home/AboutSection.jsx",
-        lineNumber: 100,
+        lineNumber: 93,
         columnNumber: 5
     }, this);
 }
@@ -521,7 +521,7 @@ function WhyUs() {
                                 columnNumber: 19
                             }, void 0),
                             title: "Safe, Reliable & Professional",
-                            text: "We provide safe and professional transportation, and strive to be the leaders in crew and charter transportation for Canada and USA."
+                            text: "At GTACoach, safety and reliability come first. We keep our vehicles in top condition, and our drivers are fully trained to make sure every trip is smooth and on time."
                         }, void 0, false, {
                             fileName: "[project]/app/home/WhyUs.jsx",
                             lineNumber: 60,
@@ -712,7 +712,7 @@ const Banner = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-200 max-w-2xl mx-auto mb-8 text-sm",
-                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+                        children: "With our premium rentals, you can book the right vehicle for your needs, from luxury coach buses to smaller vans. We offer hourly and long-distance packages to fit your schedule and budget."
                     }, void 0, false, {
                         fileName: "[project]/app/home/Banner.jsx",
                         lineNumber: 34,
@@ -727,7 +727,7 @@ const Banner = ()=>{
                                 children: "Get a Quote"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Banner.jsx",
-                                lineNumber: 41,
+                                lineNumber: 40,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -738,20 +738,20 @@ const Banner = ()=>{
                                         className: "h-5 w-5 text-white mr-2"
                                     }, void 0, false, {
                                         fileName: "[project]/app/home/Banner.jsx",
-                                        lineNumber: 51,
+                                        lineNumber: 50,
                                         columnNumber: 11
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " (416) 503-9794"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/home/Banner.jsx",
-                                lineNumber: 47,
+                                lineNumber: 46,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/home/Banner.jsx",
-                        lineNumber: 40,
+                        lineNumber: 39,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]

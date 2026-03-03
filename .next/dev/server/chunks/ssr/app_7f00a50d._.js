@@ -89,7 +89,7 @@ function Footer() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-300 leading-relaxed mb-8 max-w-sm text-sm",
-                                        children: "Molestie ad feugiat est facilisi faucibus magnis. Convalis magna pellentesque odio fusce turpis elit."
+                                        children: "Driven by experience and dedicated to your satisfaction - we deliver transportation services that go the extra mile, every time."
                                     }, void 0, false, {
                                         fileName: "[project]/app/components/Footer.jsx",
                                         lineNumber: 36,
@@ -594,8 +594,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Footer$
 ;
 ;
 const metadata = {
-    title: "GTACoach | Toronto Bus Charter & Transportation Services",
-    description: "GTACoach provides reliable Toronto bus charter and transportation services for corporate events, schools, weddings, and group travel across the GTA. Safe, comfortable, and professional service.",
+    title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
+    description: "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
     keywords: "Toronto bus charter, GTA coach rental, charter bus Toronto, school bus rental Toronto, corporate transportation GTA, wedding bus rental Toronto",
     metadataBase: new URL("https://gtacoach.com"),
     alternates: {
@@ -606,8 +606,8 @@ const metadata = {
     },
     robots: "index, follow",
     openGraph: {
-        title: "GTACoach | Toronto Bus Charter & Transportation Services",
-        description: "Reliable and professional Toronto bus charter services for corporate events, schools, weddings, and group travel across the GTA.",
+        title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
+        description: "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
         url: "https://gtacoach.com/",
         siteName: "GTACoach",
         locale: "en_CA",
@@ -623,14 +623,14 @@ const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "GTACoach | Toronto Bus Charter & Transportation Services",
-        description: "Professional Toronto bus charter services for corporate, school, wedding, and group transportation across the GTA.",
+        title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
+        description: "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
         images: [
             "https://gtacoach.com/slides/slide-2.jpg"
         ]
     },
     other: {
-        "DC.title": "GTACoach | Toronto Bus Charter & Transportation Services"
+        "DC.title": "Charter Bus Rental Toronto | Group Transportation | GTACoach"
     },
     icons: {
         icon: "/favicon.ico",

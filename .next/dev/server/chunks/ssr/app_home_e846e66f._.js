@@ -14,17 +14,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const slides = [
     {
         image: "../../slides/slide-1.jpg",
-        title: "We Are Best",
-        highlight: "Bus Charter Service",
-        subtitle: "In The World",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet."
+        title: "Comfort in Every Mile",
+        highlight: "Reliability in Every Ride",
+        subtitle: "",
+        desc: "Premium charter bus services across Toronto & beyond"
     },
     {
         image: "../../slides/slide-2.jpg",
-        title: "Safe & Reliable",
-        highlight: "Transportation",
-        subtitle: "For Everyone",
-        desc: "Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet laboris nisi ut aliquip."
+        title: "Travel Together",
+        highlight: "Arrive On Time",
+        subtitle: "Ride in Style",
+        desc: "Your trusted partner for group transportation"
+    },
+    {
+        image: "../../slides/slide-3.jpg",
+        title: "Where Safety",
+        highlight: "Meets Comfort",
+        subtitle: "",
+        desc: "Over 37 years of delivering seamless charter experiences"
     }
 ];
 function HeroSlider() {
@@ -50,7 +57,7 @@ function HeroSlider() {
                         className: "absolute inset-0 bg-black/50"
                     }, void 0, false, {
                         fileName: "[project]/app/home/HeroSlider.jsx",
-                        lineNumber: 53,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -65,7 +72,7 @@ function HeroSlider() {
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/home/HeroSlider.jsx",
-                                            lineNumber: 59,
+                                            lineNumber: 67,
                                             columnNumber: 31
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -73,20 +80,20 @@ function HeroSlider() {
                                             children: slide.highlight
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/HeroSlider.jsx",
-                                            lineNumber: 60,
+                                            lineNumber: 68,
                                             columnNumber: 17
                                         }, this),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/app/home/HeroSlider.jsx",
-                                            lineNumber: 61,
+                                            lineNumber: 69,
                                             columnNumber: 17
                                         }, this),
                                         slide.subtitle
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/HeroSlider.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 66,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -94,29 +101,29 @@ function HeroSlider() {
                                     children: slide.desc
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/HeroSlider.jsx",
-                                    lineNumber: 65,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/home/HeroSlider.jsx",
-                            lineNumber: 57,
+                            lineNumber: 65,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/home/HeroSlider.jsx",
-                        lineNumber: 56,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, this)
                 ]
             }, index, true, {
                 fileName: "[project]/app/home/HeroSlider.jsx",
-                lineNumber: 38,
+                lineNumber: 46,
                 columnNumber: 9
             }, this))
     }, void 0, false, {
         fileName: "[project]/app/home/HeroSlider.jsx",
-        lineNumber: 35,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }
@@ -149,7 +156,7 @@ function BusTypes() {
                     className: "flex flex-col lg:flex-row justify-between",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-3xl mb-2",
+                            className: "max-w-5xl mb-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "webText font-semibold mb-3 text-sm uppercase tracking-widest",
@@ -189,8 +196,16 @@ function BusTypes() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-gray-600 leading-relaxed text-sm mt-5 mb-2 md:mb-8",
-                                    children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo"
-                                }, void 0, false, {
+                                    children: [
+                                        "Reliable Bus Charter Services Across Toronto & Beyond ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/app/home/BusTypes.jsx",
+                                            lineNumber: 29,
+                                            columnNumber: 75
+                                        }, this),
+                                        "We offer safe, comfortable, and tailored transportation for groups of any size. Whether it’s a corporate event, wedding, airport transfer, or school trip, our team makes travel simple and enjoyable."
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/app/home/BusTypes.jsx",
                                     lineNumber: 28,
                                     columnNumber: 17
@@ -208,12 +223,12 @@ function BusTypes() {
                                 children: "View All Fleet"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/BusTypes.jsx",
-                                lineNumber: 34,
+                                lineNumber: 33,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/home/BusTypes.jsx",
-                            lineNumber: 33,
+                            lineNumber: 32,
                             columnNumber: 13
                         }, this)
                     ]
@@ -265,12 +280,12 @@ function BusTypes() {
                                                         children: "$950 - $2000 (4-8 hours)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/home/BusTypes.jsx",
-                                                        lineNumber: 67,
+                                                        lineNumber: 66,
                                                         columnNumber: 33
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 65,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -279,24 +294,24 @@ function BusTypes() {
                                                     className: "mx-auto h-50 object-contain p-10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 71,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 65,
+                                            lineNumber: 64,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
+                                            className: "p-6 min-h-[460px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-semibold mb-4",
                                                     children: "Coach Buses"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 78,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -309,14 +324,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 82,
+                                                                    lineNumber: 81,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "45-56 Passengers"
+                                                                "Luxury full-size coaches designed for corporate events, long-distance tours, and premium group travel."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 81,
+                                                            lineNumber: 80,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -326,14 +341,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 86,
+                                                                    lineNumber: 85,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Luxury Options Available"
+                                                                "Plush reclining seats with spacious legroom for maximum comfort on extended journeys."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 84,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -343,14 +358,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 90,
+                                                                    lineNumber: 89,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Onboard Restroom, WiFi Service"
+                                                                "Large panoramic windows for a scenic, elevated travel experience."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 88,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -360,14 +375,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 94,
+                                                                    lineNumber: 93,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Reclining Seats, Power outlets"
+                                                                "Professional, uniformed drivers committed to punctuality, safety, and exceptional service."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 92,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -377,37 +392,37 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 98,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Corporate Retreats, Wedding Transport, Events and Conferences, 250+ Mile Trips"
+                                                                "The perfect choice for cross-border travel across Canada and the USA."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 97,
+                                                            lineNumber: 96,
                                                             columnNumber: 29
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 79,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 77,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                    lineNumber: 64,
+                                    lineNumber: 63,
                                     columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/BusTypes.jsx",
-                                lineNumber: 63,
+                                lineNumber: 62,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -424,12 +439,12 @@ function BusTypes() {
                                                         children: "$750 - $1700 (4-8 hours)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/home/BusTypes.jsx",
-                                                        lineNumber: 110,
+                                                        lineNumber: 109,
                                                         columnNumber: 33
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 108,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -438,24 +453,24 @@ function BusTypes() {
                                                     className: "mx-auto h-50 object-contain p-10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 114,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 108,
+                                            lineNumber: 107,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
+                                            className: "p-6 min-h-[460px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-semibold mb-4",
                                                     children: "Mini Buses"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 121,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -468,14 +483,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 125,
+                                                                    lineNumber: 124,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "15-35 Passengers"
+                                                                "Premium mid-size vehicles ideal for corporate outings, private events, and airport transfers."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 124,
+                                                            lineNumber: 123,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -485,14 +500,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 129,
+                                                                    lineNumber: 128,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Overhead Storage"
+                                                                "Comfortable, modern interiors designed for smooth and stylish city travel."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 127,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -502,14 +517,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 133,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "WiFi Service"
+                                                                "Efficient maneuverability for downtown routes and event venues."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 132,
+                                                            lineNumber: 131,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -519,14 +534,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 137,
+                                                                    lineNumber: 136,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Reclining Seats"
+                                                                "Ideal for business teams, wedding guests, and private group transportation."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 136,
+                                                            lineNumber: 135,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -536,37 +551,37 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 141,
+                                                                    lineNumber: 140,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Corporate Events, Employee Shuttles, Field Trips, Short-Distance Travel, Shuttles & more."
+                                                                "Reliable, on-time service tailored to your schedule."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 140,
+                                                            lineNumber: 139,
                                                             columnNumber: 29
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 122,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 121,
+                                            lineNumber: 120,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                    lineNumber: 107,
+                                    lineNumber: 106,
                                     columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/BusTypes.jsx",
-                                lineNumber: 106,
+                                lineNumber: 105,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -583,12 +598,12 @@ function BusTypes() {
                                                         children: "$650 - $1500 (4-8 hours)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/home/BusTypes.jsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 152,
                                                         columnNumber: 33
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 152,
+                                                    lineNumber: 151,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -597,24 +612,24 @@ function BusTypes() {
                                                     className: "mx-auto h-50 object-contain p-10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 157,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 151,
+                                            lineNumber: 150,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
+                                            className: "p-6 min-h-[460px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-semibold mb-4",
                                                     children: "School Buses"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 165,
+                                                    lineNumber: 164,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -627,14 +642,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 168,
+                                                                    lineNumber: 167,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "44-65 (Standard), 10-27 (Mini)"
+                                                                "Trusted and dependable transportation for schools, camps, sports teams, and community groups."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 166,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -644,14 +659,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 172,
+                                                                    lineNumber: 171,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Most Cost Effective, Large Capacity"
+                                                                "High safety standards with well-maintained vehicles and experienced drivers."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 171,
+                                                            lineNumber: 170,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -661,14 +676,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 175,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "GPS Tracking"
+                                                                "Practical solution for large group transfers and organized outings."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 175,
+                                                            lineNumber: 174,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -678,14 +693,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 180,
+                                                                    lineNumber: 179,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Fixed Bench Seats"
+                                                                "Affordable without compromising reliability."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 178,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -695,37 +710,37 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 184,
+                                                                    lineNumber: 183,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "School Trips, Sports Teams, Under 150 Mile Trips"
+                                                                "Flexible scheduling to meet your group’s needs."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 183,
+                                                            lineNumber: 182,
                                                             columnNumber: 29
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 166,
+                                                    lineNumber: 165,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 164,
+                                            lineNumber: 163,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                    lineNumber: 150,
+                                    lineNumber: 149,
                                     columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/BusTypes.jsx",
-                                lineNumber: 149,
+                                lineNumber: 148,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
@@ -742,12 +757,12 @@ function BusTypes() {
                                                         children: "$600 - $1800 (4-8 hours)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/home/BusTypes.jsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 195,
                                                         columnNumber: 33
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 195,
+                                                    lineNumber: 194,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -756,24 +771,24 @@ function BusTypes() {
                                                     className: "mx-auto h-50 object-contain p-10"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 201,
+                                                    lineNumber: 200,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 194,
+                                            lineNumber: 193,
                                             columnNumber: 25
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "p-6",
+                                            className: "p-6 min-h-[460px]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     className: "text-xl font-semibold mb-4",
                                                     children: "Sprinter Vans"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 208,
+                                                    lineNumber: 207,
                                                     columnNumber: 29
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -786,14 +801,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 211,
+                                                                    lineNumber: 210,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "8-14 Passengers"
+                                                                "Executive-style vans perfect for small groups, corporate executives, and VIP clients."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 210,
+                                                            lineNumber: 209,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -803,14 +818,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 215,
+                                                                    lineNumber: 214,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Utility & Luxury Options Available"
+                                                                "Discreet, comfortable, and refined travel experience."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 214,
+                                                            lineNumber: 213,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -820,14 +835,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 219,
+                                                                    lineNumber: 218,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "WiFi Services, Charging Ports"
+                                                                "Ideal for airport pickups, weddings, private tours, and business travel."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 218,
+                                                            lineNumber: 217,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -837,14 +852,14 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 223,
+                                                                    lineNumber: 222,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Plush Interiors With Individual Seating (Optional)"
+                                                                "Smooth ride with flexible luggage space for added convenience."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 222,
+                                                            lineNumber: 221,
                                                             columnNumber: 29
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -854,48 +869,48 @@ function BusTypes() {
                                                                     className: "w-5 h-5 text-green-500 flex-shrink-0"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                                    lineNumber: 227,
+                                                                    lineNumber: 226,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                "Shuttles, Airport Transfers, Short Trips"
+                                                                "Personalized service designed around your itinerary."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                                            lineNumber: 226,
+                                                            lineNumber: 225,
                                                             columnNumber: 29
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                                    lineNumber: 209,
+                                                    lineNumber: 208,
                                                     columnNumber: 29
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/home/BusTypes.jsx",
-                                            lineNumber: 207,
+                                            lineNumber: 206,
                                             columnNumber: 25
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/home/BusTypes.jsx",
-                                    lineNumber: 193,
+                                    lineNumber: 192,
                                     columnNumber: 21
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/BusTypes.jsx",
-                                lineNumber: 192,
+                                lineNumber: 191,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/home/BusTypes.jsx",
-                        lineNumber: 42,
+                        lineNumber: 41,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/home/BusTypes.jsx",
-                    lineNumber: 41,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             ]
@@ -935,32 +950,32 @@ const services = [
     {
         title: "Group Charters to Canada/USA",
         image: "../../services/1.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+        desc: "We offer custom coach services for large groups going to conferences, festivals, or tours."
     },
     {
         title: "Group Sporting Events",
         image: "../../services/2.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+        desc: "We provide reliable rides for teams and fans heading to games and tournaments."
     },
     {
         title: "Airport Shuttles & Transfers",
         image: "../../services/3.jpg",
-        desc: "Lorem ipsum dolor sit ametconse ctetur adipiscing elit."
+        desc: "We offer on-time rides to and from major airports, with plenty of room for luggage."
     },
     {
         title: "Corporate Events",
         image: "../../services/4.jpg",
-        desc: "Lorem ipsum dolor sitamet consectetur adipiscing elit."
+        desc: "Our professional group transport helps your team arrive on time and stress-free."
     },
     {
         title: "City Tours",
         image: "../../services/5.jpg",
-        desc: "Lorem ipsum dolor sit am etconsec tetur adipiscing elit."
+        desc: "Ride in comfort on our buses for guided tours of Toronto and nearby attractions."
     },
     {
         title: "Casino Charters",
         image: "../../services/6.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit."
+        desc: "Sit back and enjoy the ride as we take you and your group comfortably to popular casino destinations."
     }
 ];
 const HomeServices = ()=>{
@@ -968,7 +983,7 @@ const HomeServices = ()=>{
         className: "py-15 bg-white",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "text-center max-w-3xl mx-auto mb-14",
+                className: "text-center max-w-5xl mx-auto mb-14",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "webText font-semibold tracking-wide text-sm uppercase tracking-widest",
@@ -1010,16 +1025,8 @@ const HomeServices = ()=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-gray-600 text-sm mt-4",
-                        children: [
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                fileName: "[project]/app/home/HomeServices.jsx",
-                                lineNumber: 63,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            "incididunt ut labore et dolore magna aliqua."
-                        ]
-                    }, void 0, true, {
+                        children: "Take a look at our modern, comfortable fleet, which includes spacious coach buses, mini-buses, and sprinter vans. Every vehicle has amenities like Wi-Fi, climate control, and comfortable seating to help you relax or get work done during your trip."
+                    }, void 0, false, {
                         fileName: "[project]/app/home/HomeServices.jsx",
                         lineNumber: 60,
                         columnNumber: 9
@@ -1073,12 +1080,12 @@ const HomeServices = ()=>{
                                             className: "object-cover w-full h-[230px]"
                                         }, void 0, false, {
                                             fileName: "[project]/app/home/HomeServices.jsx",
-                                            lineNumber: 97,
+                                            lineNumber: 94,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/app/home/HomeServices.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 93,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1089,42 +1096,42 @@ const HomeServices = ()=>{
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/home/HomeServices.jsx",
-                                                lineNumber: 106,
+                                                lineNumber: 103,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-sm text-gray-700 mb-4",
+                                                className: "text-sm text-gray-700 mb-4 min-h-[60px]",
                                                 children: item.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/app/home/HomeServices.jsx",
-                                                lineNumber: 110,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/home/HomeServices.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 102,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/home/HomeServices.jsx",
-                                lineNumber: 94,
+                                lineNumber: 91,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, index, false, {
                             fileName: "[project]/app/home/HomeServices.jsx",
-                            lineNumber: 93,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/app/home/HomeServices.jsx",
-                    lineNumber: 70,
+                    lineNumber: 67,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/home/HomeServices.jsx",
-                lineNumber: 69,
+                lineNumber: 66,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1154,14 +1161,32 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$mo
 ;
 const testimonials = [
     {
-        text: `Nisi habitasse maximus vehicula consectetur class fames pharetra phasellus curabitur nulla. Integer ad orci tempor magna vestibulum malesuada lorem.`,
-        name: "Susan Hollis",
-        designation: "Designation"
+        text: `Excellent service from planning to drop-off. The drivers were professional and punctual.`,
+        name: "Susan H."
     },
     {
-        text: `Placerat libero hendrerit quis habitant lobortis pellentesque tellus. Integer ad orci tempor magna vestibulum malesuada lorem.`,
-        name: "John Carter",
-        designation: "Designation"
+        text: `Comfortable buses, great amenities, and smooth travel — highly recommend for any group event.`,
+        name: "John C."
+    },
+    {
+        text: `GTACoach handled our corporate conference transportation flawlessly. The bus arrived early, the driver was professional, and the entire experience was smooth from start to finish. Highly recommended!`,
+        name: "Michael R."
+    },
+    {
+        text: `We booked GTACoach for our wedding guests, and they exceeded expectations. The buses were clean, comfortable, and perfectly on schedule. It took so much stress off our special day.`,
+        name: "Amanda L."
+    },
+    {
+        text: `Our group airport transfer was seamless. Plenty of luggage space, comfortable seating, and punctual service. We’ll definitely use them again.`,
+        name: "David S."
+    },
+    {
+        text: `Safety was our biggest concern for our school trip, and GTACoach delivered. The driver was courteous and professional, and the students had a comfortable ride.`,
+        name: "Sarah T."
+    },
+    {
+        text: `We hired GTACoach for our team’s tournament travel, and the experience was excellent. Reliable, affordable, and very well organized. Great service!`,
+        name: "Jason M."
     }
 ];
 function Testimonials() {
@@ -1180,12 +1205,12 @@ function Testimonials() {
                             className: "w-full md:min-h-[500px] rounded-t-xl md:rounded-l-xl object-cover"
                         }, void 0, false, {
                             fileName: "[project]/app/home/Testimonials.jsx",
-                            lineNumber: 28,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/home/Testimonials.jsx",
-                        lineNumber: 27,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,7 +1221,7 @@ function Testimonials() {
                                 children: "TESTIMONIALS"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                lineNumber: 38,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1204,15 +1229,15 @@ function Testimonials() {
                                 children: "What are they saying"
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                lineNumber: 42,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-gray-600 text-sm mt-3 max-w-md",
-                                children: "Placerat libero hendrerit quis habitant libero lobortis pellentesque tellus."
+                                children: "Hear from our clients about their experiences and the results we’ve delivered."
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                lineNumber: 46,
+                                lineNumber: 64,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1239,7 +1264,7 @@ function Testimonials() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/home/Testimonials.jsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 78,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1251,7 +1276,7 @@ function Testimonials() {
                                                                     children: item.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/Testimonials.jsx",
-                                                                    lineNumber: 66,
+                                                                    lineNumber: 84,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1259,39 +1284,39 @@ function Testimonials() {
                                                                     children: item.designation
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/home/Testimonials.jsx",
-                                                                    lineNumber: 69,
+                                                                    lineNumber: 87,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/home/Testimonials.jsx",
-                                                            lineNumber: 65,
+                                                            lineNumber: 83,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/home/Testimonials.jsx",
-                                                        lineNumber: 64,
+                                                        lineNumber: 82,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 77,
                                                 columnNumber: 21
                                             }, this)
                                         }, index, false, {
                                             fileName: "[project]/app/home/Testimonials.jsx",
-                                            lineNumber: 58,
+                                            lineNumber: 76,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/Testimonials.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 70,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                lineNumber: 51,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,39 +1330,39 @@ function Testimonials() {
                                         fill: "#FFF"
                                     }, void 0, false, {
                                         fileName: "[project]/app/home/Testimonials.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 100,
                                         columnNumber: 95
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/home/Testimonials.jsx",
-                                    lineNumber: 82,
+                                    lineNumber: 100,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/home/Testimonials.jsx",
-                                lineNumber: 81,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/home/Testimonials.jsx",
-                        lineNumber: 36,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/home/Testimonials.jsx",
-                lineNumber: 24,
+                lineNumber: 42,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/home/Testimonials.jsx",
-            lineNumber: 23,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/home/Testimonials.jsx",
-        lineNumber: 22,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }
