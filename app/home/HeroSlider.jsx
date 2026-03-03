@@ -5,19 +5,27 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     image: "../../slides/slide-1.jpg",
-    title: "We Are Best",
-    highlight: "Bus Charter Service",
-    subtitle: "In The World",
+    title: "Comfort in Every Mile",
+    highlight: "Reliability in Every Ride",
+    subtitle: "",
     desc:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet.",
+      "Premium charter bus services across Toronto & beyond",
   },
   {
     image: "../../slides/slide-2.jpg",
-    title: "Safe & Reliable",
-    highlight: "Transportation",
-    subtitle: "For Everyone",
+    title: "Travel Together",
+    highlight: "Arrive On Time",
+    subtitle: "Ride in Style",
     desc:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet laboris nisi ut aliquip.",
+      "Your trusted partner for group transportation",
+  },
+  {
+    image: "../../slides/slide-3.jpg",
+    title: "Where Safety",
+    highlight: "Meets Comfort",
+    subtitle: "",
+    desc:
+      "Over 37 years of delivering seamless charter experiences",
   },
 ];
 

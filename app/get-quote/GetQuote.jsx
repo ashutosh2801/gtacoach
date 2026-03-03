@@ -42,8 +42,7 @@ const GetQuote = () => {
             </h1>
 
             <p className="mt-6 text-sm text-gray-200">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Your success is our priority. We combine expertise, innovation, and dedication to provide solutions that truly make a difference.
             </p>
         </div>
       </section>

@@ -4,9 +4,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "GTACoach | Toronto Bus Charter & Transportation Services",
+  title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
   description:
-    "GTACoach provides reliable Toronto bus charter and transportation services for corporate events, schools, weddings, and group travel across the GTA. Safe, comfortable, and professional service.",
+    "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
   keywords:
     "Toronto bus charter, GTA coach rental, charter bus Toronto, school bus rental Toronto, corporate transportation GTA, wedding bus rental Toronto",
 
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   robots: "index, follow",
 
   openGraph: {
-    title: "GTACoach | Toronto Bus Charter & Transportation Services",
+    title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
     description:
-      "Reliable and professional Toronto bus charter services for corporate events, schools, weddings, and group travel across the GTA.",
+      "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
     url: "https://gtacoach.com/",
     siteName: "GTACoach",
     locale: "en_CA",
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "GTACoach | Toronto Bus Charter & Transportation Services",
+    title: "Charter Bus Rental Toronto | Group Transportation | GTACoach",
     description:
-      "Professional Toronto bus charter services for corporate, school, wedding, and group transportation across the GTA.",
+      "Reliable charter bus rentals in Toronto & GTA. Book group transportation for corporate events, airport transfers, tours & more. Safe, comfortable & on time.",
     images: ["https://gtacoach.com/slides/slide-2.jpg"],
   },
 
   other: {
     "DC.title":
-      "GTACoach | Toronto Bus Charter & Transportation Services",
+      "Charter Bus Rental Toronto | Group Transportation | GTACoach",
   },
 
   icons: {

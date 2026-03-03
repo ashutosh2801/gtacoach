@@ -55,8 +55,7 @@ const ContactUs = () => {
                 </h1>
 
                 <p className="mt-6 text-sm text-gray-200">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Need a Ride? We’ve Got You Covered!
                 </p>
             </div>
         </section>
