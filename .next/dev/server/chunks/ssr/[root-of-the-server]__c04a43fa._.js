@@ -55,7 +55,7 @@ function Header() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "fixed md:absolute inset-x-0 top-1 z-50 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center font-bold",
+                    className: "w-[96%] md:w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center text-sm md:font-bold",
                     children: "Website Under Construction. Call us at 416-503-9794"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Header.jsx",
@@ -68,7 +68,7 @@ function Header() {
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed md:absolute inset-x-0 top-16 md:top-12 z-50 flex justify-center",
+                className: "fixed md:absolute inset-x-0 top-11 md:top-11 z-50 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                     className: "w-[90%] max-w-[1300px] bg-white rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-4",
                     children: [
