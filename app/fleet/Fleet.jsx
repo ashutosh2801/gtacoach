@@ -65,21 +65,21 @@ export default function Fleet() {
           </h2>
 
           {/* CARDS */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
             {/* CARD 1 */}
             <div className="border border-gray-200 rounded-xl bg-white">
                 <div className="bg-gray-300 rounded-t-xl">
-                    <div className="flex justify-end pt-2 pr-2">
+                    {/* <div className="flex justify-end pt-2 pr-2">
                         <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                             $950 - $2000 (4-8 hours)
                         </span>
-                    </div>
+                    </div> */}
 
                     <img
                     src="../../buses/1.webp"
                     alt="Coach Buses"
-                    className="mx-auto h-50 object-contain p-10"
+                    className="mx-auto h-55 object-contain p-10"
                     />
                 </div>
                 <div className="p-6">
@@ -112,16 +112,16 @@ export default function Fleet() {
             {/* CARD 2 */}
             <div className="border border-gray-200 rounded-xl bg-white">
                 <div className="bg-gray-300 rounded-t-xl">
-                    <div className="flex justify-end pt-2 pr-2">
+                    {/* <div className="flex justify-end pt-2 pr-2">
                         <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                             $750 - $1700 (4-8 hours)
                         </span>
-                    </div>
+                    </div> */}
 
                     <img
                     src="../../buses/2.webp"
                     alt="Coach Buses"
-                    className="mx-auto h-50 object-contain p-10"
+                    className="mx-auto h-55 object-contain p-10"
                     />
                 </div>
                 <div className="p-6">
@@ -152,7 +152,7 @@ export default function Fleet() {
             </div>
 
             {/* CARD 3 */}
-            <div className="border border-gray-200 rounded-xl bg-white">
+            {/* <div className="border border-gray-200 rounded-xl bg-white">
                 <div className="bg-gray-300 rounded-t-xl">
                     <div className="flex justify-end pt-2 pr-2">
                         <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
@@ -191,21 +191,21 @@ export default function Fleet() {
                     </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
 
             {/* CARD 4 */}
             <div className="border border-gray-200 rounded-xl bg-white">
                 <div className="bg-gray-300 rounded-t-xl">
-                    <div className="flex justify-end pt-2 pr-2">
+                    {/* <div className="flex justify-end pt-2 pr-2">
                         <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                         $600 - $1800 (4-8 hours)
                         </span>
-                    </div>
+                    </div> */}
 
                     <img
                     src="../../buses/4.webp"
                     alt="Coach Buses"
-                    className="mx-auto h-50 object-contain p-10"
+                    className="mx-auto h-55 object-contain p-10"
                     />
                 </div>
                 <div className="p-6">

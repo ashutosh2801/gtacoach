@@ -91,7 +91,7 @@ export default function Footer() {
 
               <li className="flex gap-3">
                 <PhoneIcon className="w-5 h-5 webText" />
-                <a href="tel:4165039795" className="hover:text-white">416-503-9795</a>
+                <a href="tel:4165039795" className="hover:text-white">416-503-9794</a>
               </li>
             </ul>
 
@@ -112,7 +112,7 @@ export default function Footer() {
         {/* DIVIDER */}
         <div className="border-t border-white/20 mt-16 pt-8 flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-300">
           <p>
-            © 2026 GTACoach.com. All rights reserved.
+            © 1989 - 2026 GTACoach.com. All rights reserved.
           </p>
         </div>
       </div>

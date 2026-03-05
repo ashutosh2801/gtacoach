@@ -84,9 +84,6 @@ const ContactUs = () => {
                 <a href="tel:4165039794" className="block mb-4">
                   (416) 503-9794
                 </a>
-                <a href="tel:4165039794" className="mb-4">
-                  (416) 503-9794
-                </a>
               </div>
             </SwiperSlide>
 
@@ -126,7 +123,7 @@ const ContactUs = () => {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
 
             {/* LEFT SIDE - GOOGLE MAP */}
-            <div className="w-full h-[300px] md:h-[640px]">
+            <div className="w-full h-[300px] md:h-[790px]">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.446503575275!2d-79.52201060915814!3d43.6180649089231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b37d69149d6b1%3A0x6bd920a34f52c3b3!2s16%20Arnold%20St%2C%20Etobicoke%2C%20ON%20M8Z%205A6%2C%20Canada!5e0!3m2!1sen!2slk!4v1766496998364!5m2!1sen!2slk"
                 width="100%"
@@ -137,7 +134,7 @@ const ContactUs = () => {
             </div>
 
             {/* RIGHT SIDE - CONTACT FORM */}
-            <div className="bg-white shadow-lg rounded-lg p-8 md:h-[640px]">
+            <div className="">
 
             <h2 className="text-2xl font-semibold mb-6 text-gray-900">
               Get In {" "}
@@ -146,10 +143,29 @@ const ContactUs = () => {
               <span className="absolute left-0 bottom-1.5 w-full h-[7px] webBG z-[-1] opacity-60"></span>
               </span>
             </h2>
+            
+            <iframe
+              id="JotFormIFrame-260632276398061"
+              title="Form"
+              onLoad={() => window.parent.scrollTo(0, 0)}
+              allow="geolocation; microphone; camera; fullscreen; payment"
+              src="https://form.jotform.com/260632276398061"
+              className="w-full !h-[775px]"
+            ></iframe>
 
-            <form className="space-y-6">
+            <Script
+              src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"
+              strategy="lazyOnload"
+            />
 
-                {/* Name */}
+            <Script id="jotform-handler">
+            {`
+              window.jotformEmbedHandler("iframe[id='JotFormIFrame-260632276398061']", "https://form.jotform.com/")
+            `}
+            </Script>   
+
+
+            {/* <form className="space-y-6">
                 <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                     Full Name
@@ -161,8 +177,6 @@ const ContactUs = () => {
                     required
                 />
                 </div>
-
-                {/* Email */}
                 <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                     Email Address
@@ -174,8 +188,6 @@ const ContactUs = () => {
                     required
                 />
                 </div>
-
-                {/* Phone */}
                 <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                     Phone Number
@@ -187,8 +199,6 @@ const ContactUs = () => {
                     required
                 />
                 </div>
-
-                {/* Message */}
                 <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                     Message
@@ -200,8 +210,6 @@ const ContactUs = () => {
                     required
                 ></textarea>
                 </div>
-
-                {/* Submit Button */}
                 <button
                 type="submit"
                 className="w-full webBG shover:opacity-90 transition duration-300 text-white font-semibold py-3 rounded-md cursor-pointer"
@@ -209,7 +217,7 @@ const ContactUs = () => {
                 SEND MESSAGE
                 </button>
 
-            </form>
+            </form> */}
             </div>
 
           </div>

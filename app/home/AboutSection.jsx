@@ -28,14 +28,6 @@ export default function AboutSection() {
           <p className="mt-6 text-gray-600 leading-relaxed max-w-xl text-sm">
             GTACoach has over 37 years of experience in passenger transportation and is known for excellence and professionalism. We offer custom charter services for corporate groups, airport transfers, sporting events, and leisure travel throughout Canada and the USA. <br></br><br></br>Our goal is to provide smooth transportation with skilled drivers, dependable vehicles, and excellent customer support.
           </p>
-          <div className="mt-6">
-            <b>Our Trusted Partners</b>
-            <div className="grid grid-cols-3 gap-2 md:gap-6 mt-3">
-              <img src="../../partners/netflix.jpg" alt="netflix" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-              <img src="../../partners/air-canada.jpg" alt="air-canada" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-              <img src="../../partners/ax.jpg" alt="ax" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-            </div>
-          </div>
         </div>
 
         {/* RIGHT IMAGES */}

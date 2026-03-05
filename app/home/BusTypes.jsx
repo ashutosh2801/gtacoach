@@ -55,26 +55,26 @@ export default function BusTypes() {
                     slidesPerView: 3,
                     },
                     1100: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     },
                 }}
             >
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                     $950 - $2000 (4-8 hours)
                                 </span>
-                            </div>
+                            </div> */}
 
                             <img
                             src="../../buses/1.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6 min-h-[460px]">
+                        <div className="p-6 min-h-[360px]">
                             <h3 className="text-xl font-semibold mb-4">Coach Buses</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
@@ -105,19 +105,19 @@ export default function BusTypes() {
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                     $750 - $1700 (4-8 hours)
                                 </span>
-                            </div>
+                            </div> */}
 
                             <img
                             src="../../buses/2.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6 min-h-[460px]">
+                        <div className="p-6 min-h-[360px]">
                             <h3 className="text-xl font-semibold mb-4">Mini Buses</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
@@ -145,7 +145,7 @@ export default function BusTypes() {
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
                             <div className="flex justify-end pt-2 pr-2">
@@ -186,24 +186,24 @@ export default function BusTypes() {
                             </ul>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                 $600 - $1800 (4-8 hours)
                                 </span>
-                            </div>
+                            </div> */}
 
                             <img
                             src="../../buses/4.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-10"
                             />
                         </div>
-                        <div className="p-6 min-h-[460px]">
+                        <div className="p-6 min-h-[360px]">
                             <h3 className="text-xl font-semibold mb-4">Sprinter Vans</h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">

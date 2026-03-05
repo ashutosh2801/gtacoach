@@ -13,11 +13,7 @@ export default function Header() {
   const handleClose = () => setOpen(false);
 
   return (
-    <>
-    <div className="fixed md:absolute inset-x-0 top-1 z-50 flex justify-center">
-      <div className="w-[96%] md:w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center text-sm md:font-bold">Website Under Construction. Call us at 416-503-9794</div>
-    </div>
-    <div className="fixed md:absolute inset-x-0 top-11 md:top-11 z-50 flex justify-center">
+    <div className="absolute inset-x-0 top-5 z-50 flex justify-center">
       <nav className="w-[90%] max-w-[1300px] bg-white rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-4">
         
         {/* TOP ROW */}
@@ -194,6 +190,5 @@ export default function Header() {
         )}
       </nav>
     </div>
-    </>
   );
 }
