@@ -116,12 +116,12 @@ const Careers = () => {
 
                     {/* CTA Button */}
                     <div className="mt-8">
-                        <Link
+                        <a
                             href="mailto:info@gtacoach.com"
                             className="block text-center w-full webBG hover:opacity-90 transition text-white py-3 rounded-lg font-medium"
                         >
                             Send Resume Now
-                        </Link>
+                        </a>
                     </div>
 
                 </div>
@@ -143,12 +143,12 @@ const Careers = () => {
             safety, and long-term growth.
             </p>
 
-            <Link
+            <a
               href="mailto:info@gtacoach.com"
               className="inline-block webBG hover:opacity-90 transition duration-300 webBorderColor text-white font-semibold px-8 py-3 rounded"
             >
               Apply Now
-            </Link>
+            </a>
 
           </div>
         </div>

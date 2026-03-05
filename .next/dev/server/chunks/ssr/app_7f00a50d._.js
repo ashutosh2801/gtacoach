@@ -423,7 +423,7 @@ function Footer() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "tel:4165039795",
                                                         className: "hover:text-white",
-                                                        children: "416-503-9795"
+                                                        children: "416-503-9794"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Footer.jsx",
                                                         lineNumber: 94,
@@ -552,7 +552,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "border-t border-white/20 mt-16 pt-8 flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-300",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "© 2026 GTACoach.com. All rights reserved."
+                            children: "© 1989 - 2026 GTACoach.com. All rights reserved."
                         }, void 0, false, {
                             fileName: "[project]/app/components/Footer.jsx",
                             lineNumber: 114,

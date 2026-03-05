@@ -200,7 +200,7 @@ export default function BusTypes() {
                             <img
                             src="../../buses/4.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-55 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-5"
                             />
                         </div>
                         <div className="p-6 min-h-[360px]">

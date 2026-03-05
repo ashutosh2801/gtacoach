@@ -205,7 +205,7 @@ export default function Fleet() {
                     <img
                     src="../../buses/4.webp"
                     alt="Coach Buses"
-                    className="mx-auto h-55 object-contain p-10"
+                    className="mx-auto h-55 object-contain p-5"
                     />
                 </div>
                 <div className="p-6">
@@ -248,7 +248,7 @@ export default function Fleet() {
       </section>
 
       {/* ================= PRICING TABLE ================= */}
-      <section className="bg-[#091622] text-white py-15">
+      {/* <section className="bg-[#091622] text-white py-15">
         <div className="container mx-auto px-6 text-center">
 
             <h2 className="text-3xl font-semibold mb-6">
@@ -270,7 +270,7 @@ export default function Fleet() {
             <div className="w-full">
                 <table className="w-full text-left border-collapse">
 
-                    {/* TABLE HEAD (Hidden on Mobile) */}
+                    {/* TABLE HEAD (Hidden on Mobile) * /}
                     <thead className="bg-gray-200 hidden md:table-header-group">
                     <tr>
                         <th className="p-4">City</th>
@@ -299,7 +299,7 @@ export default function Fleet() {
                             p-4 md:p-0
                         `}
                         >
-                        {/* City */}
+                        {/* City * /}
                         <td className="p-2 md:p-4 block md:table-cell">
                             <span className="font-semibold md:hidden">City: </span>
                             <a href="/get-quote" className="text-black">
@@ -307,7 +307,7 @@ export default function Fleet() {
                             </a>
                         </td>
 
-                        {/* Hours */}
+                        {/* Hours * /}
                         <td className="p-2 md:p-4 block md:table-cell">
                             <span className="font-semibold md:hidden">
                             Minimum booking hours:{" "}
@@ -315,7 +315,7 @@ export default function Fleet() {
                             {row[1]}
                         </td>
 
-                        {/* Cost */}
+                        {/* Cost * /}
                         <td className="p-2 md:p-4 block md:table-cell">
                             <span className="font-semibold md:hidden">
                             Estimated cost:{" "}
@@ -339,13 +339,13 @@ export default function Fleet() {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* ================= EXPERIENCE GALLERY ================= */}
-      <section className="py-15 bg-gray-100">
+      <section className="py-15 bg-[#091622]">
         <div className="container mx-auto px-6 text-center">
 
-            <h2 className="text-3xl font-semibold mb-6">
+            <h2 className="text-white text-3xl font-semibold mb-6">
                 Discover the Motor Coach {" "}
                 <span className="relative inline-block z-[5]">
                 Bus Experience
@@ -353,7 +353,7 @@ export default function Fleet() {
                 </span>
             </h2>
 
-          <p className="max-w-3xl mx-auto text-gray-600 text-sm mb-12">
+          <p className="max-w-3xl mx-auto text-white text-sm mb-12">
             Step inside and experience spacious comfort. Relax in reclining seats
             with ample legroom and enjoy panoramic views.
           </p>
