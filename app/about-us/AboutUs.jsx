@@ -250,7 +250,7 @@ Our approach is simple: combine well-maintained vehicles, experienced drivers, a
 
                 </div>
 
-                <p className="text-gray-300 mt-6 text-sm leading-relaxed">From the first quote request to the final drop-off, we aim to provide a transportation experience that is organized, comfortable, and dependable.</p>
+                <p className="text-gray-300 mt-6 text-sm leading-relaxed text-center">From the first quote request to the final drop-off, we aim to provide a transportation experience that is organized, comfortable, and dependable.</p>
 
                 </div>
 
