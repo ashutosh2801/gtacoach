@@ -43,6 +43,15 @@ export default function Header() {
 
             <li>
               <Link
+                href="/about-us"
+                className={isActive("/about-us") ? "webText" : "text-gray-800"}
+              >
+                About Us
+              </Link>
+            </li>
+
+            <li>
+              <Link
                 href="/services"
                 className={isActive("/services") ? "webText" : "text-gray-800"}
               >

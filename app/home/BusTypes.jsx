@@ -55,97 +55,84 @@ export default function BusTypes() {
                     slidesPerView: 3,
                     },
                     1100: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     },
                 }}
             >
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                     $950 - $2000 (4-8 hours)
                                 </span>
-                            </div>
-
-                            <img
-                            src="../../buses/1.webp"
-                            alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
-                            />
+                            </div> */}
+                            <a href="/fleet">
+                                <img
+                                src="../../buses/1.webp"
+                                alt="Coach Buses"
+                                className="mx-auto h-55 object-contain p-10"
+                                />
+                            </a>
                         </div>
-                        <div className="p-6 min-h-[460px]">
-                            <h3 className="text-xl font-semibold mb-4">Coach Buses</h3>
+                        <div className="p-6 min-h-[180px]">
+                            <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Coach Buses</a></h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
-                            <li className="flex gap-2">
+                            <li className="flex gap-2 ">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                            Luxury full-size coaches designed for corporate events, long-distance tours, and premium group travel.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                            Plush reclining seats with spacious legroom for maximum comfort on extended journeys.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Large panoramic windows for a scenic, elevated travel experience.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Professional, uniformed drivers committed to punctuality, safety, and exceptional service.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                The perfect choice for cross-border travel across Canada and the USA.
+                            Luxury full-size coaches designed for corporate events, long-distance tours, and premium group.
                             </li>
                             </ul>
+                            <div className="text-center">
+                                <a
+                                    href="/fleet"
+                                    className="inline-block mt-6 text-sm font-semibold webText border-b-2 border-transparent hover:border-current transition-all duration-300"
+                                >
+                                Read More →
+                                </a>
+                            </div>
                         </div>
+                        
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                     $750 - $1700 (4-8 hours)
                                 </span>
-                            </div>
-
+                            </div> */}
+                            <a href="/fleet">
                             <img
                             src="../../buses/2.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-10"
                             />
+                            </a>
                         </div>
-                        <div className="p-6 min-h-[460px]">
-                            <h3 className="text-xl font-semibold mb-4">Mini Buses</h3>
+                        <div className="p-6 min-h-[180px]">
+                            <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Mini Buses</a></h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
-                            <li className="flex gap-2">
+                            <li className="flex gap-2 line-clamp-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
                                 Premium mid-size vehicles ideal for corporate outings, private events, and airport transfers.
                             </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                            Comfortable, modern interiors designed for smooth and stylish city travel.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                            Efficient maneuverability for downtown routes and event venues.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Ideal for business teams, wedding guests, and private group transportation.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Reliable, on-time service tailored to your schedule.
-                            </li>
                             </ul>
+                            <div className="text-center">
+                                <a
+                                    href="/fleet"
+                                    className="inline-block mt-6 text-sm font-semibold webText border-b-2 border-transparent hover:border-current transition-all duration-300"
+                                >
+                                Read More →
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>
 
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
                             <div className="flex justify-end pt-2 pr-2">
@@ -186,47 +173,40 @@ export default function BusTypes() {
                             </ul>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
                 <SwiperSlide>
                     <div className="border border-gray-200 rounded-xl bg-white">
                         <div className="bg-gray-300 rounded-t-xl">
-                            <div className="flex justify-end pt-2 pr-2">
+                            {/* <div className="flex justify-end pt-2 pr-2">
                                 <span className="border border-blue-900 text-blue-900 text-xs px-4 py-1 rounded-full bg-white">
                                 $600 - $1800 (4-8 hours)
                                 </span>
-                            </div>
-
+                            </div> */}
+                            <a href="/fleet">
                             <img
                             src="../../buses/4.webp"
                             alt="Coach Buses"
-                            className="mx-auto h-50 object-contain p-10"
+                            className="mx-auto h-55 object-contain p-10"
                             />
+                            </a>
                         </div>
-                        <div className="p-6 min-h-[460px]">
-                            <h3 className="text-xl font-semibold mb-4">Sprinter Vans</h3>
+                        <div className="p-6 min-h-[180px]">
+                            <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Sprinter Vans</a></h3>
                             <ul className="space-y-3 text-gray-600 text-sm">
                             <li className="flex gap-2">
                                 <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
                                 Executive-style vans perfect for small groups, corporate executives, and VIP clients.
                             </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Discreet, comfortable, and refined travel experience.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Ideal for airport pickups, weddings, private tours, and business travel.    
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Smooth ride with flexible luggage space for added convenience.
-                            </li>
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Personalized service designed around your itinerary.
-                            </li>
                             </ul>
+                            <div className="text-center">
+                                <a
+                                    href="/fleet"
+                                    className="inline-block mt-6 text-sm font-semibold webText border-b-2 border-transparent hover:border-current transition-all duration-300"
+                                >
+                                Read More →
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </SwiperSlide>

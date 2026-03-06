@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
+import Script from "next/script";
 
 const GetQuote = () => {
   const [startDate, setStartDate] = useState(null);
@@ -46,11 +47,31 @@ const GetQuote = () => {
             </p>
         </div>
       </section>
-      <section className="py-10 flex justify-center">
+      <section className="flex justify-center">
         <div className="container mx-auto px-6">
 
-          {/* STEP 1 */}
-          <div className="flex justify-between items-center">
+          <iframe
+            id="JotFormIFrame-260633586211050"
+            title="Trip Information"
+            onLoad={() => window.parent.scrollTo(0, 0)}
+            allow="geolocation; microphone; camera; fullscreen; payment"
+            src="https://form.jotform.com/260633586211050"
+            className="w-full !h-[2100px] md:!h-[1450px]"
+          ></iframe>
+
+          <Script
+            src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"
+            strategy="lazyOnload"
+          />
+
+          <Script id="jotform-trip-handler">
+            {`
+              window.jotformEmbedHandler("iframe[id='JotFormIFrame-260633586211050']", "https://form.jotform.com/")
+            `}
+          </Script>
+          
+
+          {/* <div className="flex justify-between items-center">
             <h2 className="text-xl md:text-2xl font-semibold">
               Trip Information
             </h2>
@@ -59,7 +80,6 @@ const GetQuote = () => {
 
           <div className="border-t border-gray-200 mt-2 mb-5" />
 
-          {/* Starting From */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             <div className="col-span-2">
               <label className="text-sm font-medium flex text-gray-800">
@@ -99,8 +119,6 @@ const GetQuote = () => {
               />
             </div>
           </div>
-
-          {/* Destination */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
             <div className="col-span-2">
               <label className="text-sm font-medium w-full flex text-gray-800">
@@ -142,7 +160,6 @@ const GetQuote = () => {
             </div>
           </div>
 
-          {/* Notes + Upload */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div>
               <label className="text-sm font-medium flex text-gray-800">
@@ -167,7 +184,6 @@ const GetQuote = () => {
             </div>
           </div>
 
-          {/* Bottom Row */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
             <div>
               <label className="text-sm font-medium w-full flex text-gray-800">
@@ -199,7 +215,6 @@ const GetQuote = () => {
             </div>
           </div>
 
-          {/* STEP 2 */}
           <div className="flex justify-between items-center">
             <h2 className="text-xl md:text-2xl font-semibold">
               Contact Information
@@ -245,28 +260,9 @@ const GetQuote = () => {
               <input className="w-full mt-1 h-11 border rounded-lg bg-gray-100 border-gray-200 px-3 text-sm focus:outline-none" />
             </div>
           </div>
-
-          {/* Consent */}
-          {/* <div className="flex items-start gap-2 text-xs text-gray-600 mb-6">
-            <input type="checkbox" className="mt-1" />
-            <p>
-              By clicking here you consent to receive customer care sms and
-              marketing sms from Global Charter Services. Message frequency may
-              vary. Standard Message and Data Rates may apply. Reply STOP to opt
-              out. Reply Help for help.{" "}
-              <span className="text-red-500 cursor-pointer">
-                Privacy policy
-              </span>{" "}
-              <span className="text-red-500 cursor-pointer">
-                Terms
-              </span>
-            </p>
-          </div> */}
-
-          {/* Submit */}
           <button className="w-full h-12 webBG hover:opacity-90 transition text-white rounded text-lg font-medium cursor-pointer">
             Submit
-          </button>
+          </button> */}
         </div>
       </section>
     </main>

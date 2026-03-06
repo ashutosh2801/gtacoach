@@ -6,8 +6,8 @@ const slides = [
   {
     image: "../../slides/slide-1.jpg",
     title: "Comfort in Every Mile",
-    highlight: "Reliability in Every Ride",
-    subtitle: "",
+    highlight: "Reliability in",
+    subtitle: "Every Ride",
     desc:
       "Premium charter bus services across Toronto & beyond",
   },
@@ -18,14 +18,6 @@ const slides = [
     subtitle: "Ride in Style",
     desc:
       "Your trusted partner for group transportation",
-  },
-  {
-    image: "../../slides/slide-3.jpg",
-    title: "Where Safety",
-    highlight: "Meets Comfort",
-    subtitle: "",
-    desc:
-      "Over 37 years of delivering seamless charter experiences",
   },
 ];
 
@@ -40,7 +32,7 @@ export default function HeroSlider() {
   }, []);
 
   return (
-    <section className="relative h-[500px] lg:h-screen overflow-hidden">
+    <section className="relative h-[500px] lg:h-[580px] overflow-hidden">
       {/* Slides */}
       {slides.map((slide, index) => (
         <div
@@ -61,9 +53,9 @@ export default function HeroSlider() {
           <div className="absolute inset-0 bg-black/50" />
 
           {/* Centered Text */}
-          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-2 md:top-15">
+          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-2 md:top-12">
             <div className="max-w-3xl">
-              <h1 className="text-3xl md:text-6xl font-extrabold leading-tight">
+              <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
                 {slide.title} <br />
                 <span className="webText">{slide.highlight}</span>{" "}
                 <br />

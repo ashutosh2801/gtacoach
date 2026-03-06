@@ -37,7 +37,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-gray-50 py-15">
+    <section className="py-15">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
           
@@ -46,7 +46,7 @@ export default function Testimonials() {
             <img
               src="../../banners/testimonial.jpg"
               alt="Testimonial"
-              className="w-full md:min-h-[500px] rounded-t-xl md:rounded-l-xl object-cover"
+              className="w-full md:min-h-[500px] rounded-t-xl md:rounded-t-xs md:rounded-l-xl object-cover"
             />
           </div>
 

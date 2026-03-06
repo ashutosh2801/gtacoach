@@ -7,9 +7,9 @@ import {
 import {
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
+  FaLinkedinIn,
   FaYoutube,
-  FaDribbble,
+  FaTiktok,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -25,7 +25,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <img
-                src="../../logo.png"
+                src="../../footer-logo.png"
                 alt="Shuttle Bus Charter Service"
                 className=""
                 width={200}
@@ -91,7 +91,7 @@ export default function Footer() {
 
               <li className="flex gap-3">
                 <PhoneIcon className="w-5 h-5 webText" />
-                <a href="tel:4165039795" className="hover:text-white">416-503-9795</a>
+                <a href="tel:4165039795" className="hover:text-white">416-503-9794</a>
               </li>
             </ul>
 
@@ -99,11 +99,13 @@ export default function Footer() {
             <div className="mt-8">
               <p className="mb-4 font-semibold">Follow Us :</p>
               <div className="flex items-center gap-2">
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><FaFacebookF className="webText text-lg" /></div>
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><FaInstagram className="webText text-lg cursor-pointer" /></div>
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><FaDribbble className="webText text-lg cursor-pointer" /></div>
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><FaTwitter className="webText text-lg cursor-pointer" /></div>
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><FaYoutube className="webText text-lg cursor-pointer" /></div>
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.facebook.com/profile.php?id=61586901099108" target="_blank" rel="noopener noreferrer"><FaFacebookF className="webText text-lg" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.instagram.com/gtacoachcanada/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram className="webText text-lg cursor-pointer" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.linkedin.com/company/gta-coach/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="webText text-lg cursor-pointer" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.tiktok.com/@gtacoachcanada" target="_blank" rel="noopener noreferrer"><FaTiktok className="webText text-lg cursor-pointer" /></a></div>
               </div>
             </div>
           </div>
@@ -112,7 +114,7 @@ export default function Footer() {
         {/* DIVIDER */}
         <div className="border-t border-white/20 mt-16 pt-8 flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-300">
           <p>
-            © 2026 GTACoach.com. All rights reserved.
+            © 1989 - 2026 GTACoach.com. All rights reserved.
           </p>
         </div>
       </div>

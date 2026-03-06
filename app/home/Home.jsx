@@ -6,6 +6,8 @@ import WhyUs from "./WhyUs";
 import HomeServices from './HomeServices'
 import Banner from './Banner'
 import Testimonials from './Testimonials'
+import Partners from './Partners'
+import FleetMaintenance from './FleetMaintenance'
 
 const Home = () => {
   return (
@@ -20,9 +22,13 @@ const Home = () => {
 
       <HomeServices />
 
+      <FleetMaintenance />
+
       <Banner />
 
       <Testimonials />
+
+      <Partners />
 
     </div>
   )
