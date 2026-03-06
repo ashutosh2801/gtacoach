@@ -61,19 +61,15 @@ export default function FleetMaintenance() {
           </h2>
 
           <p className="mt-6 text-gray-600 text-sm leading-relaxed">
-            When you’re travelling with a group, safety isn’t just expected — it’s essential. That’s why every vehicle in the GTACoach fleet is cared for through our dedicated in-house maintenance facility, operated by our sister company <span className="font-semibold">Marcelino Industries</span> — a fully licensed repair and service center serving the transportation industry since 2006.
+            When you’re travelling with a group, safety isn’t optional — it’s essential. That’s why every vehicle in the GTACoach fleet is maintained through our dedicated in-house facility operated by our sister company, Marcelino Industries, a fully licensed repair and service center serving the transportation industry since 2006.
           </p>
 
           <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-            This specialized facility manages everything that keeps our fleet running at its best — from preventative maintenance and mechanical repairs to detailed safety inspections and thorough vehicle cleaning. Our experienced technicians routinely service each vehicle to ensure it remains safe, reliable, and road-ready for every journey.
+            From preventative maintenance and mechanical repairs to safety inspections and vehicle cleaning, our experienced technicians ensure every vehicle remains safe, reliable, and road-ready.
           </p>
 
           <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-            Having our own dedicated maintenance operation means we’re never dependent on external workshops. It allows us to maintain stricter safety standards, monitor vehicle performance closely, and respond quickly whenever service or support is needed.
-          </p>
-
-          <p className="mt-4 text-gray-600 text-sm leading-relaxed">
-            Because when passengers step on board, they deserve more than just transportation — they deserve peace of mind with every mile.
+            With our own maintenance operation, we’re able to uphold stricter safety standards, closely monitor performance, and respond quickly whenever service is needed — so every journey comes with complete peace of mind
           </p>
 
 
