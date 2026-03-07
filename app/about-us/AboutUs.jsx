@@ -46,9 +46,9 @@ export default function AboutUs() {
             </h1>
 
             {/* Subtitle */}
-            <p className="mt-6 text-sm text-gray-200">
+            {/* <p className="mt-6 text-sm text-gray-200">
             Moving People with Care, Comfort, and Reliability
-            </p>
+            </p> */}
 
         </div>
         </section>
@@ -60,19 +60,13 @@ export default function AboutUs() {
 
           <div>
             <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-              Group Transportation Across the Greater Toronto Area
+              Moving People with Care, Comfort, and Reliability
             </h2>
 
             <p className="text-gray-600 mb-4 leading-relaxed text-sm">
-              Based in the Greater Toronto Area, GTACoach specializes in charter bus
-              and group transportation services for corporate events, tours, schools,
-              film productions, airport transfers, and special occasions.
-              Whether it’s a small group transfer or large-scale transportation
-              coordination, our team works to ensure every trip runs smoothly
-              and on schedule.
-              Our approach is simple: combine well-maintained vehicles,
-              experienced drivers, and dependable service to create a
-              travel experience our clients can rely on.
+              At GTACoach, transportation is more than just getting from one place to another — it’s about delivering a journey that is safe, comfortable, and seamless from start to finish.
+Based in the Greater Toronto Area, GTACoach specializes in charter bus and group transportation services for corporate events, tours, schools, film productions, airport transfers, and special occasions. Whether it’s a small group transfer or large-scale transportation coordination, our team works to ensure every trip runs smoothly and on schedule.
+Our approach is simple: combine well-maintained vehicles, experienced drivers, and dependable service to create a travel experience our clients can rely on.
             </p>
 
           </div>
@@ -85,38 +79,27 @@ export default function AboutUs() {
         <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
 
           <div>
-            <p className="webText text-sm font-semibold uppercase mb-2">
-              A Legacy of Experience
-            </p>
+            
 
             <h2 className="text-3xl font-semibold text-gray-900 mb-6">
-              Over
+              A Legacy of 
               {" "}
             <span className="relative inline-block z-[5]">
-              37 Years 
+              Experience!
               <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
-            </span>{" "} of Industry Experience
+            </span>
             </h2>
 
             <p className="text-gray-600 mb-4 leading-relaxed text-sm">
-              GTACoach operates with the strong foundation and operational
-              support of GTA Crew Services, a company that has been serving
-              the transportation industry for decades.
+              GTACoach operates with the strong foundation and operational support of GTA Crew Services, a company that has been serving the transportation industry for decades.
             </p>
 
             <p className="text-gray-600 mb-4 leading-relaxed text-sm">
-              With over 37 years of combined experience, our team understands
-              the importance of punctuality, safety, and professionalism
-              in group transportation.
+              With over 37 years of combined experience, our team understands the importance of punctuality, safety, and professionalism in group transportation. From coordinating transportation for corporate teams to managing logistics for large productions and events, we bring deep industry expertise to every booking.
             </p>
 
             <p className="text-gray-600 leading-relaxed text-sm">
-              From coordinating transportation for corporate teams to
-              managing logistics for large productions and events,
-              we bring deep industry expertise to every booking.
-              Our experience allows us to anticipate challenges,
-              plan efficiently, and deliver a smooth travel
-              experience every time.
+              Our experience allows us to anticipate challenges, plan efficiently, and deliver a smooth travel experience every time.
             </p>
           </div>
 
@@ -148,13 +131,11 @@ export default function AboutUs() {
                 </span>
                 </h2>
 
-                <p className="text-gray-600 max-w-5xl mx-auto text-sm mb-12 leading-relaxed">
-                Our fleet is designed to accommodate a wide range of group sizes
-                and travel needs. From executive minibuses to full-size luxury
-                coaches, every vehicle is selected with passenger comfort and
-                reliability in mind. This allows passengers to travel comfortably whether they are
-                heading to a meeting, an event, or a long-distance journey.
+                <p className="text-gray-600 max-w-5xl mx-auto text-sm mb-5 leading-relaxed">
+                Our fleet is designed to accommodate a wide range of group sizes and travel needs. From executive minibuses to full-size luxury coaches, every vehicle is selected with passenger comfort and reliability in mind.
                 </p>
+
+                <p className="text-gray-600 max-w-5xl mx-auto text-sm mb-12 leading-relaxed font-bold">Many of our vehicles are equipped with modern amenities such as:</p>
 
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
@@ -171,6 +152,8 @@ export default function AboutUs() {
 
                 </div>
 
+                <p className="text-gray-600 max-w-5xl mx-auto text-sm mt-12 leading-relaxed">This allows passengers to travel comfortably whether they are heading to a meeting, an event, or a long-distance journey.</p>
+
             </div>
         </section>
 
@@ -182,9 +165,11 @@ export default function AboutUs() {
                 Supporting Every Type of Journey
                 </p>
 
-                <h2 className="text-3xl font-semibold text-gray-900 mb-12">
+                <h2 className="text-3xl font-semibold text-gray-900 mb-6">
                 Transportation for Every Occasion
                 </h2>
+
+                <p className="text-black mb-6 text-sm leading-relaxed">GTACoach proudly supports transportation needs across a wide range of industries and occasions, including:</p>
 
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -223,8 +208,7 @@ export default function AboutUs() {
 
 
                 <p className="text-gray-600 mt-14 w-full mx-auto leading-relaxed text-sm">
-                No matter the destination, our goal is to ensure passengers
-                travel with confidence, comfort, and peace of mind.
+                No matter the destination, our goal is to ensure passengers travel with confidence, comfort, and peace of mind.
                 </p>
 
             </div>
@@ -249,10 +233,10 @@ export default function AboutUs() {
                     </h2>
 
                     <p className="text-gray-300 mt-6 text-sm leading-relaxed">
-                    We understand that when clients book transportation,
-                    they’re trusting us with their schedules, their events,
-                    and the safety of their passengers.
+                    We understand that when clients book transportation, they’re trusting us with their schedules, their events, and the safety of their passengers.
                     </p>
+
+                    <p className="text-gray-300 mt-6 text-sm leading-relaxed">That’s why our team focuses on:</p>
 
                 </div>
 
@@ -265,6 +249,8 @@ export default function AboutUs() {
                     <ServiceItem text="Clear communication and support" />
 
                 </div>
+
+                <p className="text-gray-300 mt-6 text-sm leading-relaxed text-center">From the first quote request to the final drop-off, we aim to provide a transportation experience that is organized, comfortable, and dependable.</p>
 
                 </div>
 

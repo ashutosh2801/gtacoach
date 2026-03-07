@@ -14,19 +14,18 @@ export default function AboutSection() {
           </p>
 
           <h2 className="text-3xl lg:text-4xl font-semibold leading-tight text-gray-900">
-            More Than 37 Years We <br />
-            Provide{" "}
+            A Legacy of  {" "}
             <span className="relative inline-block z-[5]">
-              Bus Charter
+              Experience!
               <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
             </span>{" "}
-            <br />
-            Service For You
           </h2>
 
 
           <p className="mt-6 text-gray-600 leading-relaxed max-w-xl text-sm">
-            GTACoach has over 37 years of experience in passenger transportation and is known for excellence and professionalism. We offer custom charter services for corporate groups, airport transfers, sporting events, and leisure travel throughout Canada and the USA. <br></br><br></br>Our goal is to provide smooth transportation with skilled drivers, dependable vehicles, and excellent customer support.
+            GTACoach operates with the strong foundation and operational support of GTA Crew Services, a company that has been serving the transportation industry for decades.<br></br><br></br>
+            With over 37 years of combined experience, our team understands the importance of punctuality, safety, and professionalism in group transportation. From coordinating transportation for corporate teams to managing logistics for large productions and events, we bring deep industry expertise to every booking.<br></br><br></br>
+            Our experience allows us to anticipate challenges, plan efficiently, and deliver a smooth travel experience every time.
           </p>
         </div>
 
