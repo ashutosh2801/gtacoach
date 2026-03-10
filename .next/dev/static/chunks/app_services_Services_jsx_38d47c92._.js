@@ -17,32 +17,32 @@ const services = [
     {
         title: "Group Charters to Canada/USA",
         image: "/services/1.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Travel together with ease — our group charter services are perfect for family reunions, school trips, large tours, and event groups. From planning to departure, we ensure punctual service and comfortable rides so your entire group can focus on the experience ahead."
     },
     {
         title: "Group Sporting Events",
         image: "/services/2.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Make every game day memorable. We provide efficient, reliable transportation for sports teams and fan groups to tournaments, matches, and championships. With ample luggage space for equipment and experienced professional drivers, we help your team arrive prepared and on time."
     },
     {
         title: "Airport Shuttles & Transfers",
         image: "/services/3.jpg",
-        desc: "Lorem ipsum dolor sit ametconse ctetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Say goodbye to travel stress with our airport shuttle services. We provide timely pickups and drop-offs at all major airports, with plenty of luggage room and a comfortable ride — ideal for corporate travellers, families, or large groups heading to flights."
     },
     {
         title: "Corporate Events",
         image: "/services/4.jpg",
-        desc: "Lorem ipsum dolor sitamet consectetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Arrive in style and on schedule with GTACoach’s corporate travel solutions. From executive airport transfers to team retreats and industry conferences, we handle your group’s itinerary with professionalism and flexibility so you can focus on your business goals."
     },
     {
         title: "City Tours",
         image: "/services/5.jpg",
-        desc: "Lorem ipsum dolor sit am etconsec tetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Explore iconic destinations and hidden gems with our guided or self-paced city tours. Our modern coaches offer comfort and convenience as you discover downtown areas, regional attractions, and scenic highlights — perfect for tourists, clubs, and leisure groups."
     },
     {
         title: "Casino Charters",
         image: "/services/6.jpg",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit. dolor sit amet consectetur adipiscing elit"
+        desc: "Turn your night out into a hassle-free adventure. Our casino charter services take you and your group directly to your destination in comfort, with flexible scheduling and plenty of room for belongings. Ride together, relax together, and enjoy the journey."
     }
 ];
 function Services() {
@@ -128,7 +128,7 @@ function Services() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "mt-6 text-sm text-gray-200",
-                                children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                children: "Driven by excellence. Focused on results. Committed to your success."
                             }, void 0, false, {
                                 fileName: "[project]/app/services/Services.jsx",
                                 lineNumber: 73,
@@ -164,23 +164,23 @@ function Services() {
                                             className: "object-cover group-hover:scale-110 transition duration-700"
                                         }, void 0, false, {
                                             fileName: "[project]/app/services/Services.jsx",
-                                            lineNumber: 93,
+                                            lineNumber: 92,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/services/Services.jsx",
-                                        lineNumber: 92,
+                                        lineNumber: 91,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "py-6 px-4 text-white bg-gray-100",
+                                        className: "py-6 px-4 text-white bg-gray-100 min-h-[230px]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "text-xl font-semibold text-gray-900 mb-3",
                                                 children: service.title
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/Services.jsx",
-                                                lineNumber: 103,
+                                                lineNumber: 102,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -188,34 +188,34 @@ function Services() {
                                                 children: service.desc
                                             }, void 0, false, {
                                                 fileName: "[project]/app/services/Services.jsx",
-                                                lineNumber: 107,
+                                                lineNumber: 106,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/services/Services.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 101,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/app/services/Services.jsx",
-                                lineNumber: 87,
+                                lineNumber: 86,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/services/Services.jsx",
-                        lineNumber: 84,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/services/Services.jsx",
-                    lineNumber: 82,
+                    lineNumber: 81,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/Services.jsx",
-                lineNumber: 81,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -227,18 +227,18 @@ function Services() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl lg:text-3xl font-semibold mb-6",
-                                children: "Ready to Work With the Best?"
+                                children: "Ready to Start Your Trip?"
                             }, void 0, false, {
                                 fileName: "[project]/app/services/Services.jsx",
-                                lineNumber: 123,
+                                lineNumber: 122,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "max-w-3xl mx-auto text-sm text-gray-200 mb-8",
-                                children: "Get started by completing a short overview of what your needs are and we will reach out immediately to get started crafting the perfect bus transportation service for you."
+                                children: "Tell us your travel needs, and we’ll craft a personalized transportation plan designed around your group’s schedule and preferences — whether it’s a local outing or a cross-border tour."
                             }, void 0, false, {
                                 fileName: "[project]/app/services/Services.jsx",
-                                lineNumber: 127,
+                                lineNumber: 126,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -247,23 +247,23 @@ function Services() {
                                 children: "REQUEST A QUOTE"
                             }, void 0, false, {
                                 fileName: "[project]/app/services/Services.jsx",
-                                lineNumber: 133,
+                                lineNumber: 130,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/services/Services.jsx",
-                        lineNumber: 121,
+                        lineNumber: 120,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/services/Services.jsx",
-                    lineNumber: 120,
+                    lineNumber: 119,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/services/Services.jsx",
-                lineNumber: 119,
+                lineNumber: 118,
                 columnNumber: 7
             }, this)
         ]
