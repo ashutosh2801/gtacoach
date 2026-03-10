@@ -248,7 +248,7 @@ export default function Fleet() {
       </section>
 
       {/* ================= PRICING TABLE ================= */}
-      {/* <section className="bg-[#091622] text-white py-15">
+      <section className="bg-[#091622] text-white py-15">
         <div className="container mx-auto px-6 text-center">
 
             <h2 className="text-3xl font-semibold mb-6">
@@ -260,92 +260,92 @@ export default function Fleet() {
                 in Top Cities
             </h2>
 
-          <p className="max-w-3xl mx-auto text-sm text-gray-200 mb-12">
-            Indicative prices for motor coach bus rentals in major cities are shown below. 
-            These prices may vary based on factors such as location, group size, trip duration,
-            seasonal demand, route complexity, amenities, and other variables.
-          </p>
+            <p className="max-w-3xl mx-auto text-sm text-gray-200 mb-12">
+                Indicative prices for motor coach bus rentals in major cities are shown below. 
+                These prices may vary based on factors such as location, group size, trip duration,
+                seasonal demand, route complexity, amenities, and other variables.
+            </p>
 
-          <div className="bg-white text-gray-800 rounded-lg overflow-hidden">
-            <div className="w-full">
-                <table className="w-full text-left border-collapse">
+            <div className="bg-white text-gray-800 rounded-lg overflow-hidden">
+                <div className="w-full">
+                    <table className="w-full text-left border-collapse">
 
-                    {/* TABLE HEAD (Hidden on Mobile) * /}
-                    <thead className="bg-gray-200 hidden md:table-header-group">
-                    <tr>
-                        <th className="p-4">City</th>
-                        <th className="p-4">Minimum booking hours</th>
-                        <th className="p-4">Estimated cost</th>
-                    </tr>
-                    </thead>
+                        {/* TABLE HEAD (Hidden on Mobile) */}
+                        <thead className="bg-gray-200 hidden md:table-header-group">
+                            <tr>
+                                <th className="p-4">City</th>
+                                <th className="p-4">Minimum booking hours</th>
+                                <th className="p-4">Estimated cost</th>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                    {[
-                        ["New York City", "5", "$1150 - $2200"],
-                        ["Atlanta", "5", "$1150 - $2100"],
-                        ["Los Angeles", "5", "$1350 - $2500"],
-                        ["San Francisco / San Jose", "5", "$1200 - $2300"],
-                        ["Chicago", "5", "$950 - $1800"],
-                        ["Boston", "5", "$1200 - $2100"],
-                        ["Washington DC", "5", "$1150 - $2250"],
-                    ].map((row, i) => (
-                        <tr
-                        key={i}
-                        className={`
-                            ${i % 2 === 0 ? "bg-gray-100" : "bg-white"}
-                            block md:table-row
-                            rounded-lg md:rounded-none
-                            shadow md:shadow-none
-                            p-4 md:p-0
-                        `}
-                        >
-                        {/* City * /}
-                        <td className="p-2 md:p-4 block md:table-cell">
-                            <span className="font-semibold md:hidden">City: </span>
-                            <a href="/get-quote" className="text-black">
-                            {row[0]}
-                            </a>
-                        </td>
+                        <tbody>
+                            {[
+                                ["New York City", "5", "$1150 - $2200"],
+                                ["Atlanta", "5", "$1150 - $2100"],
+                                ["Los Angeles", "5", "$1350 - $2500"],
+                                ["San Francisco / San Jose", "5", "$1200 - $2300"],
+                                ["Chicago", "5", "$950 - $1800"],
+                                ["Boston", "5", "$1200 - $2100"],
+                                ["Washington DC", "5", "$1150 - $2250"],
+                            ].map((row, i) => (
+                                <tr
+                                key={i}
+                                className={`
+                                    ${i % 2 === 0 ? "bg-gray-100" : "bg-white"}
+                                    block md:table-row
+                                    rounded-lg md:rounded-none
+                                    shadow md:shadow-none
+                                    p-4 md:p-0
+                                `}
+                                >
+                                {/* City */}
+                                <td className="p-2 md:p-4 block md:table-cell">
+                                    <span className="font-semibold md:hidden">City: </span>
+                                    <a href="/get-quote" className="text-black">
+                                    {row[0]}
+                                    </a>
+                                </td>
 
-                        {/* Hours * /}
-                        <td className="p-2 md:p-4 block md:table-cell">
-                            <span className="font-semibold md:hidden">
-                            Minimum booking hours:{" "}
-                            </span>
-                            {row[1]}
-                        </td>
+                                {/* Hours */}
+                                <td className="p-2 md:p-4 block md:table-cell">
+                                    <span className="font-semibold md:hidden">
+                                    Minimum booking hours:{" "}
+                                    </span>
+                                    {row[1]}
+                                </td>
 
-                        {/* Cost * /}
-                        <td className="p-2 md:p-4 block md:table-cell">
-                            <span className="font-semibold md:hidden">
-                            Estimated cost:{" "}
-                            </span>
-                            {row[2]}
-                        </td>
-                        </tr>
-                    ))}
-                    </tbody>
-                </table>
+                                {/* Cost */}
+                                <td className="p-2 md:p-4 block md:table-cell">
+                                    <span className="font-semibold md:hidden">
+                                    Estimated cost:{" "}
+                                    </span>
+                                    {row[2]}
+                                </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
-          </div>
+            </div>
 
-          <div className="mt-10">
-            <Link
-              href="/get-quote"
-              className="inline-block webBG transition duration-300 webBorderColor text-white font-semibold px-8 py-3 rounded"
-            >
-              REQUEST A QUOTE
-            </Link>
-          </div>
+            <div className="mt-10">
+                <Link
+                href="/get-quote"
+                className="inline-block webBG transition duration-300 webBorderColor text-white font-semibold px-8 py-3 rounded"
+                >
+                REQUEST A QUOTE
+                </Link>
+            </div>
 
         </div>
-      </section> */}
+      </section>
 
       {/* ================= EXPERIENCE GALLERY ================= */}
-      <section className="py-15 bg-[#091622]">
+      <section className="py-15 bg-gray-100">
         <div className="container mx-auto px-6 text-center">
 
-            <h2 className="text-white text-3xl font-semibold mb-6">
+            <h2 className="text-black text-3xl font-semibold mb-6">
                 Discover the Motor Coach {" "}
                 <span className="relative inline-block z-[5]">
                 Bus Experience
@@ -353,7 +353,7 @@ export default function Fleet() {
                 </span>
             </h2>
 
-          <p className="max-w-3xl mx-auto text-white text-sm mb-12">
+          <p className="max-w-3xl mx-auto text-gray-600 text-sm mb-12">
             Step inside and experience spacious comfort. Relax in reclining seats
             with ample legroom and enjoy panoramic views.
           </p>
