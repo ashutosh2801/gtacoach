@@ -27,6 +27,14 @@ export default function AboutSection() {
             With over 37 years of combined experience, our team understands the importance of punctuality, safety, and professionalism in group transportation. From coordinating transportation for corporate teams to managing logistics for large productions and events, we bring deep industry expertise to every booking.<br></br><br></br>
             Our experience allows us to anticipate challenges, plan efficiently, and deliver a smooth travel experience every time.
           </p>
+          <div className="mt-6">
+            <b>Our Trusted Partners</b>
+            <div className="grid grid-cols-3 gap-2 md:gap-6 mt-3">
+              <img src="../../partners/netflix.jpg" alt="netflix" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+              <img src="../../partners/air-canada.jpg" alt="air-canada" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+              <img src="../../partners/ax.jpg" alt="ax" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
+            </div>
+          </div>
         </div>
 
         {/* RIGHT IMAGES */}

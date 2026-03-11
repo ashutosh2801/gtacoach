@@ -15,10 +15,10 @@ export default function Header() {
   return (
     <>
     <div className="fixed md:absolute inset-x-0 md:top-2 z-50 flex justify-center">
-      <div className="w-[98%] md:w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center text-sm md:font-bold">Website Under Construction. Call us at (855) 503-9794</div>
+      <div className="w-[98%] md:w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center text-sm md:font-bold">Website Under Construction. Call us at (416) 503-9794</div>
     </div>
     <div className="fixed md:absolute inset-x-0 top-11 md:top-13 z-50 flex justify-center">
-      <nav className="w-[90%] max-w-[1300px] bg-white rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-4">
+      <nav className="w-[90%] max-w-[1300px] bg-white rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-5 py-3">
         
         {/* TOP ROW */}
         <div className="flex items-center">
@@ -45,14 +45,14 @@ export default function Header() {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 href="/about-us"
                 className={isActive("/about-us") ? "webText" : "text-gray-800"}
               >
                 About Us
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link
@@ -101,15 +101,26 @@ export default function Header() {
           </ul>
 
           {/* CTA (Desktop only) */}
-          <div className="hidden xl:flex webBG text-white rounded-md px-5 py-3 items-center gap-3">
+          <div className="hidden xl:flex webBG text-white rounded-md px-4 py-3 items-center gap-3">
             <span className="bg-white rounded-full p-2">
               <PhoneIcon className="h-4 w-4 webText" />
             </span>
-            <div className="leading-tight">
-              <p className="text-[11px] opacity-90">Contact Us Now</p>
-              <p className="text-sm font-bold"><a href="tel:8555039794;">(855) 503-9794</a></p>
+            <div className="flex flex-row gap-4 leading-tight">
+              <div className="flex flex-col">
+                <p className="text-[11px] opacity-90">Toll free</p>
+                <p className="text-sm font-bold flex flex-col">
+                  <a href="tel:18555039794;">1 855 503 9794</a>
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <p className="text-[11px] opacity-90">Dispatch</p>
+                <p className="text-sm font-bold flex flex-col">
+                  <a href="tel:4165039794;">(416) 503-9794</a>
+                </p>
+              </div>
             </div>
           </div>
+          
 
           {/* Mobile Menu Button */}
           <button
@@ -190,15 +201,25 @@ export default function Header() {
             </ul>
 
             {/* Mobile CTA */}
-            <div className="mt-6 webBG text-white rounded-md px-5 py-3 flex items-center gap-3">
-              <span className="bg-white rounded-full p-2">
-                <PhoneIcon className="h-4 w-4 webText" />
-              </span>
-              <div className="leading-tight">
-                <p className="text-[11px] opacity-90">Contact Us Now</p>
-                <p className="text-sm font-bold"><a href="tel:8555039794;">(855) 503-9794</a></p>
+            <div className="flex webBG text-white rounded-md px-2 py-3 items-center gap-3 mt-3">
+            <span className="bg-white rounded-full p-2">
+              <PhoneIcon className="h-3 w-3 webText" />
+            </span>
+            <div className="flex flex-row gap-3 leading-tight">
+              <div className="flex flex-col">
+                <p className="text-[11px] opacity-90">Toll free</p>
+                <p className="text-sm font-bold flex flex-col">
+                  <a href="tel:18555039794;">1 855 503 9794</a>
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <p className="text-[11px] opacity-90">Dispatch</p>
+                <p className="text-sm font-bold flex flex-col">
+                  <a href="tel:4165039794;">(416) 503-9794</a>
+                </p>
               </div>
             </div>
+          </div>
           </div>
         )}
       </nav>

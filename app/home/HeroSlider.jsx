@@ -7,25 +7,25 @@ const slides = [
     image: "../../slides/slide-1.jpg",
     title: "Trusted Charter Bus Service",
     highlight: "Since 1989",
-    subtitle: "Comfort in Every Mile. Reliability in Every Ride",
+    subtitle: "",
     desc:
-      "Premium charter bus services across Toronto & beyond",
+      "",
   },
   {
     image: "../../slides/slide-2.jpg",
     title: "Airline Crew ",
     highlight: "Transportation Experts",
-    subtitle: "Safe, Reliable Transfers for Aviation Teams",
+    subtitle: "",
     desc:
-      "Serving Toronto Pearson, Billy Bishop & hotels across the GTA",
+      "",
   },
   {
     image: "../../slides/slide-3.jpg",
-    title: "Professional Transportation for ",
-    highlight: "Every Occasion",
-    subtitle: "Corporate Events • Tours • Group Travel",
+    title: "On-Site Fleet Maintenance",
+    highlight: "Since 2006 Powered by ",
+    subtitle: "Marcelino Industries",
     desc:
-      "On-Site Fleet Maintenance Since 2006 Powered by Marcelino Industries for Safe, Reliable Service",
+      "",
   },
 ];
 
@@ -63,12 +63,12 @@ export default function HeroSlider() {
           {/* Centered Text */}
           <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-10 md:top-12">
             <div className="md:max-w-3xl">
-              <h1 className="text-xl md:text-4xl font-extrabold leading-tight">
+              <h1 className="text-2xl md:text-4xl font-extrabold leading-tight">
                 {slide.title} <br />
                 <span className="webText">{slide.highlight}</span>{" "}                
               </h1>
 
-              <h2 className="text-xl md:text-2xl font-extrabold">
+              <h2 className="text-3xl md:text-6xl font-extrabold webText">
                 {slide.subtitle}
               </h2>
 
