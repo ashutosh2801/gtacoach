@@ -5,19 +5,27 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     image: "../../slides/slide-1.jpg",
-    title: "Comfort in Every Mile",
-    highlight: "Reliability in",
-    subtitle: "Every Ride",
+    title: "Trusted Charter Bus Service",
+    highlight: "Since 1989",
+    subtitle: "Comfort in Every Mile. Reliability in Every Ride",
     desc:
       "Premium charter bus services across Toronto & beyond",
   },
   {
     image: "../../slides/slide-2.jpg",
-    title: "Travel Together",
-    highlight: "Arrive On Time",
-    subtitle: "Ride in Style",
+    title: "Airline Crew ",
+    highlight: "Transportation Experts",
+    subtitle: "Safe, Reliable Transfers for Aviation Teams",
     desc:
-      "Your trusted partner for group transportation",
+      "Serving Toronto Pearson, Billy Bishop & hotels across the GTA",
+  },
+  {
+    image: "../../slides/slide-3.jpg",
+    title: "Professional Transportation for ",
+    highlight: "Every Occasion",
+    subtitle: "Corporate Events • Tours • Group Travel",
+    desc:
+      "On-Site Fleet Maintenance Since 2006 Powered by Marcelino Industries for Safe, Reliable Service",
   },
 ];
 
@@ -53,14 +61,16 @@ export default function HeroSlider() {
           <div className="absolute inset-0 bg-black/50" />
 
           {/* Centered Text */}
-          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-2 md:top-12">
-            <div className="max-w-3xl">
-              <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">
+          <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-10 md:top-12">
+            <div className="md:max-w-3xl">
+              <h1 className="text-xl md:text-4xl font-extrabold leading-tight">
                 {slide.title} <br />
-                <span className="webText">{slide.highlight}</span>{" "}
-                <br />
-                {slide.subtitle}
+                <span className="webText">{slide.highlight}</span>{" "}                
               </h1>
+
+              <h2 className="text-xl md:text-2xl font-extrabold">
+                {slide.subtitle}
+              </h2>
 
               <p className="mt-6 text-gray-200 text-sm px-0 md:px-20">
                 {slide.desc}

@@ -94,10 +94,10 @@ const Careers = () => {
                         <div className="p-4 rounded-lg bg-gray-50 border border-gray-200">
                             <p className="text-sm text-gray-700">Fax Your Resume</p>
                             <a
-                            href="tel:4165039795"
+                            href="tel:8555039794"
                             className="text-lg font-semibold webText hover:underline"
                             >
-                            (416) 503-9795
+                            (855) 503-9794
                             </a>
                         </div>
 

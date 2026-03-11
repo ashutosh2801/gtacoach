@@ -81,8 +81,8 @@ const ContactUs = () => {
                   <PhoneIcon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Phone</h3>
-                <a href="tel:4165039794" className="block mb-4">
-                  (416) 503-9794
+                <a href="tel:8555039794" className="block mb-4">
+                  (855) 503-9794
                 </a>
               </div>
             </SwiperSlide>
