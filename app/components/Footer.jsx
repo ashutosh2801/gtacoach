@@ -38,11 +38,11 @@ export default function Footer() {
             </p>
 
             <a
-              href="tel:4165039794"
+              href="tel:8555039794"
               className="inline-flex items-center gap-2 webBG text-white font-semibold px-6 py-3 rounded-md"
             >
               <PhoneIcon className="w-5 h-5" />
-              416-503-9794
+              (855) 503-9794
             </a>
           </div>
 
@@ -91,7 +91,7 @@ export default function Footer() {
 
               <li className="flex gap-3">
                 <PhoneIcon className="w-5 h-5 webText" />
-                <a href="tel:4165039795" className="hover:text-white">416-503-9794</a>
+                <a href="tel:8555039794" className="hover:text-white">(855) 503-9794</a>
               </li>
             </ul>
 

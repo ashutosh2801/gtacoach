@@ -31,10 +31,10 @@ function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed md:absolute inset-x-0 top-1 z-50 flex justify-center",
+                className: "fixed md:absolute inset-x-0 md:top-2 z-50 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "w-[98%] md:w-[90%] max-w-[1300px] bg-white rounded-md p-2 text-center text-sm md:font-bold",
-                    children: "Website Under Construction. Call us at 416-503-9794"
+                    children: "Website Under Construction. Call us at (855) 503-9794"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Header.jsx",
                     lineNumber: 18,
@@ -46,7 +46,7 @@ function Header() {
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed md:absolute inset-x-0 top-11 md:top-11 z-50 flex justify-center",
+                className: "fixed md:absolute inset-x-0 top-11 md:top-13 z-50 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                     className: "w-[90%] max-w-[1300px] bg-white rounded-md shadow-[0_10px_30px_rgba(0,0,0,0.15)] px-6 py-4",
                     children: [
@@ -222,8 +222,8 @@ function Header() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm font-bold",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "tel:4165039794;",
-                                                        children: "(416) 503-9794"
+                                                        href: "tel:8555039794;",
+                                                        children: "(855) 503-9794"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Header.jsx",
                                                         lineNumber: 110,
@@ -412,8 +412,8 @@ function Header() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     className: "text-sm font-bold",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "tel:4165039794;",
-                                                        children: "(416) 503-9794"
+                                                        href: "tel:8555039794;",
+                                                        children: "(855) 503-9794"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/components/Header.jsx",
                                                         lineNumber: 199,
