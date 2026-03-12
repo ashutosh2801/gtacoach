@@ -33,17 +33,32 @@ export default function Footer() {
               />
             </div>
 
-            <p className="text-gray-300 leading-relaxed mb-8 max-w-sm text-sm">
+            <p className="text-gray-300 leading-relaxed mb-5 max-w-sm text-sm">
               Driven by experience and dedicated to your satisfaction - we deliver transportation services that go the extra mile, every time.
             </p>
 
-            <a
-              href="tel:8555039794"
-              className="inline-flex items-center gap-2 webBG text-white font-semibold px-6 py-3 rounded-md"
+            {/* SOCIAL */}
+            <div className="mt-8">
+              <p className="mb-4 font-semibold">Follow Us :</p>
+              <div className="flex items-center gap-2">
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.facebook.com/profile.php?id=61586901099108" target="_blank" rel="noopener noreferrer"><FaFacebookF className="webText text-lg" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.instagram.com/gtacoachcanada/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram className="webText text-lg cursor-pointer" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.linkedin.com/company/gta-coach/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="webText text-lg cursor-pointer" /></a></div>
+
+                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.tiktok.com/@gtacoachcanada" target="_blank" rel="noopener noreferrer"><FaTiktok className="webText text-lg cursor-pointer" /></a></div>
+              </div>
+            </div>
+            
+
+            {/* <a
+              href="tel:4165039794"
+              className="inline-flex items-center gap-2 webBG text-white font-semibold px-6 py-3 rounded-md mt-2"
             >
               <PhoneIcon className="w-5 h-5" />
-              (855) 503-9794
-            </a>
+              (416) 503-9794
+            </a> */}
           </div>
 
           {/* COMPANY */}
@@ -51,7 +66,8 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-4 text-gray-300 text-sm">
               <li><a href="/" className="hover:text-white">Home</a></li>
-              <li><a href="/services" className="hover:text-white">Services</a></li>
+              <li><a href="/about-us" className="hover:text-white">About Us</a></li>
+              {/* <li><a href="/services" className="hover:text-white">Services</a></li> */}
               <li><a href="/fleet" className="hover:text-white">Bus Fleet</a></li>
               <li><a href="/get-quote" className="hover:text-white">Online Request</a></li>
               <li><a href="/careers" className="hover:text-white">Careers</a></li>
@@ -91,23 +107,18 @@ export default function Footer() {
 
               <li className="flex gap-3">
                 <PhoneIcon className="w-5 h-5 webText" />
-                <a href="tel:8555039794" className="hover:text-white">(855) 503-9794</a>
+                <a href="tel:18555039794" className="hover:text-white">
+                  Toll free: 1 855 503 9794
+                </a>
+              </li>
+
+              <li className="flex gap-3">
+                <PhoneIcon className="w-5 h-5 webText" />
+                <a href="tel:4165039794" className="hover:text-white">Dispatch: (416) 503-9794</a>
               </li>
             </ul>
 
-            {/* SOCIAL */}
-            <div className="mt-8">
-              <p className="mb-4 font-semibold">Follow Us :</p>
-              <div className="flex items-center gap-2">
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.facebook.com/profile.php?id=61586901099108" target="_blank" rel="noopener noreferrer"><FaFacebookF className="webText text-lg" /></a></div>
-
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.instagram.com/gtacoachcanada/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram className="webText text-lg cursor-pointer" /></a></div>
-
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.linkedin.com/company/gta-coach/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="webText text-lg cursor-pointer" /></a></div>
-
-                <div className="p-1 hover:bg-white rounded-full cursor-pointer"><a href="https://www.tiktok.com/@gtacoachcanada" target="_blank" rel="noopener noreferrer"><FaTiktok className="webText text-lg cursor-pointer" /></a></div>
-              </div>
-            </div>
+            
           </div>
         </div>
 

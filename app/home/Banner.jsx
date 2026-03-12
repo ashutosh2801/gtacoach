@@ -43,12 +43,12 @@ const Banner = () => {
         >
           Get a Quote
         </a>
-        <a
+        {/* <a
           href="tel:4165039794"
           className="inline-flex justify-center border-3 webBorderColor text-white font-semibold px-6 py-3 rounded transition text-base mt-2 md:mt-0"
         >
           <PhoneIcon className="h-5 w-5 text-white mr-2" /> (416) 503-9794
-        </a>
+        </a> */}
         </div>
       </div>
     </section>

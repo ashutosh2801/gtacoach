@@ -81,15 +81,18 @@ const ContactUs = () => {
                   <PhoneIcon className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Phone</h3>
-                <a href="tel:8555039794" className="block mb-4">
-                  (855) 503-9794
+                <p className="text-base mb-2">Toll free</p>
+                <a href="tel:18555039794" className="block mb-4">
+                  1 855 503 9794
                 </a>
+                <p className="text-base mb-2">Dispatch</p>
+                <a href="tel:4165039794;" className="block mb-4">(416) 503-9794</a>
               </div>
             </SwiperSlide>
 
             {/* Email */}
             <SwiperSlide>
-              <div className="bg-gray-100 text-gray-900 p-10 min-h-[300px] rounded-lg">
+              <div className="bg-gray-100 text-gray-900 p-10 min-h-[355px] rounded-lg">
                 <div className="webBG rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <EnvelopeIcon className="w-8 h-8 text-white" />
                 </div>
@@ -102,7 +105,7 @@ const ContactUs = () => {
 
             {/* Location */}
             <SwiperSlide>
-              <div className="bg-gray-100 text-gray-900 p-10 min-h-[300px] rounded-lg">
+              <div className="bg-gray-100 text-gray-900 p-10 min-h-[355px] rounded-lg">
                 <div className="webBG rounded-full w-16 h-16 flex items-center justify-center mb-6">
                   <MapPinIcon className="w-8 h-8 text-white" />
                 </div>
