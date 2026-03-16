@@ -1,5 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 import { CheckCircleIcon, SparklesIcon } from "@heroicons/react/24/solid";
 
 export default function AboutSection() {
@@ -29,11 +34,87 @@ export default function AboutSection() {
           </p>
           <div className="mt-6">
             <b>Our Trusted Partners</b>
-            <div className="grid grid-cols-3 gap-2 md:gap-6 mt-3">
-              <img src="../../partners/netflix.jpg" alt="netflix" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-              <img src="../../partners/air-canada.jpg" alt="air-canada" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-              <img src="../../partners/ax.jpg" alt="ax" className="object-cover border border-gray-200 rounded-lg px-5 py-3" />
-            </div>
+            <Swiper
+              modules={[Autoplay]}
+              autoplay={{ delay: 2500, disableOnInteraction: false }}
+              className="mt-3"
+              spaceBetween={20}
+              loop={true}
+              breakpoints={{
+                0: {
+                  slidesPerView: 2,
+                },
+                640: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 3,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
+            >
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/netflix.jpg"
+                    alt="Netflix"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/air-canada.jpg"
+                    alt="Air Canada"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/ax.jpg"
+                    alt="American Express"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/netflix.jpg"
+                    alt="Netflix"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/air-canada.jpg"
+                    alt="Air Canada"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/ax.jpg"
+                    alt="American Express"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 

@@ -20,7 +20,7 @@ export default function FleetMaintenance() {
           </div>
 
           {/* Overlay Image */}
-          <div className="absolute -bottom-10 -right-10 bg-white p-2 rounded-xl shadow-xl hidden md:block">
+          <div className="absolute -bottom-10 md:-right-0 xl:-right-10 bg-white p-2 rounded-xl shadow-xl hidden md:block">
             <img
               src="../../banners/home-safe-2.jpg"
               alt="Bus Service"
