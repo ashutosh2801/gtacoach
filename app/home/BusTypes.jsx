@@ -12,7 +12,7 @@ export default function BusTypes() {
 
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row justify-between">
-            <div className="max-w-5xl mb-2">
+            <div className="w-full lg:max-w-3xl xl:max-w-5xl mb-2">
                 <span className="webText font-semibold mb-3 text-sm uppercase tracking-widest">
                     Our Buses
                 </span>
