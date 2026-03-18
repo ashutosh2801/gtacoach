@@ -88,8 +88,8 @@ export default function AboutSection() {
               <SwiperSlide>
                 <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
                   <img
-                    src="../../partners/netflix.jpg"
-                    alt="Netflix"
+                    src="../../partners/aero-logic.jpg"
+                    alt="Aero Logic"
                     className="mx-auto h-12 object-contain"
                   />
                 </div>
@@ -98,8 +98,8 @@ export default function AboutSection() {
               <SwiperSlide>
                 <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
                   <img
-                    src="../../partners/air-canada.jpg"
-                    alt="Air Canada"
+                    src="../../partners/ban-air.jpg"
+                    alt="Bangladesh Airline"
                     className="mx-auto h-12 object-contain"
                   />
                 </div>
@@ -108,8 +108,128 @@ export default function AboutSection() {
               <SwiperSlide>
                 <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
                   <img
-                    src="../../partners/ax.jpg"
-                    alt="American Express"
+                    src="../../partners/eva-air.jpg"
+                    alt="Eva Air"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/cathay-pacific.jpg"
+                    alt="Cathay Pacific"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/condor.jpg"
+                    alt="Condor"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/cathay-pacific.jpg"
+                    alt="Cathay Pacific"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/emirates.jpg"
+                    alt="Emirates"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/etihad.jpg"
+                    alt="Etihad"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/lufthansa.jpg"
+                    alt="Lufthansa"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/swiss.jpg"
+                    alt="Swiss Airlines"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/egyptair.jpg"
+                    alt="Egyptair"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/azores.jpg"
+                    alt="Sata Azores"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/turkish.jpg"
+                    alt="Turkish"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/tap-portugal.jpg"
+                    alt="Tap Portugal"
+                    className="mx-auto h-12 object-contain"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
+                  <img
+                    src="../../partners/american-airlines.jpg"
+                    alt="American Airlines"
                     className="mx-auto h-12 object-contain"
                   />
                 </div>
