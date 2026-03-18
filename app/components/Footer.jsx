@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMobile } from '@fortawesome/free-solid-svg-icons'
+
 import {
   PhoneIcon,
   EnvelopeIcon,
@@ -113,7 +116,7 @@ export default function Footer() {
               </li>
 
               <li className="flex gap-3">
-                <PhoneIcon className="w-5 h-5 webText" />
+                <FontAwesomeIcon icon={faMobile} className='w-5 h-5 webText' />
                 <a href="tel:4165039794" className="hover:text-white">Dispatch: (416) 503-9794</a>
               </li>
             </ul>
