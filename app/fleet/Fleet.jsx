@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import {
+    HomeIcon,
   MapPinIcon,
   ArchiveBoxIcon,
   ArrowsRightLeftIcon,
@@ -13,6 +14,8 @@ import {
   WifiIcon,
   CheckIcon,
 } from "@heroicons/react/24/solid";
+
+import { FaToilet } from "react-icons/fa";
 
 
 export default function Fleet() {
@@ -393,9 +396,9 @@ export default function Fleet() {
 
             <div className="flex flex-col items-center text-center group">
                 <div className="w-16 h-16 webBG rounded-full flex items-center justify-center mb-4 transition duration-300 group-hover:scale-110">
-                <MapPinIcon className="w-7 h-7 text-white" />
+                <FaToilet className="w-7 h-7 text-white" />
                 </div>
-                <p className="text-sm font-medium">GPS Tracking</p>
+                <p className="text-sm font-medium">Washroom</p>
             </div>
 
             <div className="flex flex-col items-center text-center group">

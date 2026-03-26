@@ -138,16 +138,6 @@ export default function AboutSection() {
               <SwiperSlide>
                 <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
                   <img
-                    src="../../partners/cathay-pacific.jpg"
-                    alt="Cathay Pacific"
-                    className="mx-auto h-12 object-contain"
-                  />
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <div className="border border-gray-200 rounded-lg px-6 py-6 bg-gray-50 hover:bg-white transition">
-                  <img
                     src="../../partners/emirates.jpg"
                     alt="Emirates"
                     className="mx-auto h-12 object-contain"
