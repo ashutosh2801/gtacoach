@@ -17,6 +17,16 @@ import {
 
 import { FaToilet } from "react-icons/fa";
 
+const galleryAlts = [
+  "Luxury coach bus interior with reclining seats",
+  "Spacious legroom inside charter bus",
+  "Passengers seating arrangement in coach bus",
+  "Panoramic windows inside tour bus",
+  "Comfortable bus seating for long trips",
+  "Interior aisle view of modern coach bus",
+  "Overhead storage compartments in bus",
+  "Premium charter bus seating experience"
+];
 
 export default function Fleet() {
   return (
@@ -81,7 +91,7 @@ export default function Fleet() {
 
                     <img
                     src="../../buses/1.webp"
-                    alt="Coach Buses"
+                    alt="Luxury coach bus with reclining seats for long-distance group travel"
                     className="mx-auto h-55 object-contain p-10"
                     />
                 </div>
@@ -123,7 +133,7 @@ export default function Fleet() {
 
                     <img
                     src="../../buses/2.webp"
-                    alt="Coach Buses"
+                    alt="Modern mini bus for corporate events and small group transportation"
                     className="mx-auto h-55 object-contain p-10"
                     />
                 </div>
@@ -207,7 +217,7 @@ export default function Fleet() {
 
                     <img
                     src="../../buses/4.webp"
-                    alt="Coach Buses"
+                    alt="Executive sprinter van for VIP and private group travel"
                     className="mx-auto h-55 object-contain p-5"
                     />
                 </div>
@@ -361,11 +371,11 @@ export default function Fleet() {
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[1,2,3,4,5,6,7,8].map((img) => (
+            {[1,2,3,4,5,6,7,8].map((img, index) => (
               <img
                 key={img}
                 src={`/gallery/${img}.jpg`}
-                alt="Bus Experience"
+                alt={galleryAlts[index]}
                 width={300}
                 height={200}
                 className="rounded-lg object-cover w-full"

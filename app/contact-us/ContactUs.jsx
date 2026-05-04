@@ -82,11 +82,11 @@ const ContactUs = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Phone</h3>
                 <p className="text-base mb-2">Toll free</p>
-                <a href="tel:18555039794" className="block mb-4">
+                <a href="tel:+18555039794" className="block mb-4">
                   1 855 503 9794
                 </a>
                 <p className="text-base mb-2">Dispatch</p>
-                <a href="tel:4165039794;" className="block mb-4">(416) 503-9794</a>
+                <a href="tel:+14165039794" className="block mb-4">(416) 503-9794</a>
               </div>
             </SwiperSlide>
 
@@ -137,7 +137,7 @@ const ContactUs = () => {
             </div>
 
             {/* RIGHT SIDE - CONTACT FORM */}
-            <div className="">
+            <div>
 
             <h2 className="text-2xl font-semibold mb-6 text-gray-900">
               Get In {" "}

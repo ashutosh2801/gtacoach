@@ -21,8 +21,8 @@ const slides = [
   },
   {
     image: "../../slides/slide-3.jpg",
-    title: "On-Site Fleet Maintenance",
-    highlight: "Since 2006 Powered by ",
+    title: "On-Site Fleet Maintenance Since 2006",
+    highlight: " Powered by ",
     subtitle: "Marcelino Industries",
     desc:
       "",
@@ -63,14 +63,14 @@ export default function HeroSlider() {
           {/* Centered Text */}
           <div className="relative z-30 flex h-full items-center justify-center text-center text-white px-6 top-10 md:top-12">
             <div className="md:max-w-3xl">
-              <h1 className="text-2xl md:text-4xl font-extrabold leading-tight">
+              <h2 className="text-2xl md:text-4xl font-extrabold leading-tight">
                 {slide.title} <br />
                 <span className="webText">{slide.highlight}</span>{" "}                
-              </h1>
-
-              <h2 className="text-3xl md:text-6xl font-extrabold webText">
-                {slide.subtitle}
               </h2>
+
+              <h3 className="text-3xl md:text-6xl font-extrabold webText">
+                {slide.subtitle}
+              </h3>
 
               <p className="mt-6 text-gray-200 text-sm px-0 md:px-20">
                 {slide.desc}

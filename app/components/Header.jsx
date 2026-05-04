@@ -27,7 +27,7 @@ export default function Header() {
             <a href="/">
             <img
               src="../../logo.png"
-              alt="Shuttle Bus Charter Service"
+              alt="GTACoach logo"
               width={200}
               height={40}
             />
@@ -109,13 +109,13 @@ export default function Header() {
               <div className="flex flex-col">
                 <p className="text-[11px] opacity-90">Toll free</p>
                 <p className="text-sm font-bold flex flex-col">
-                  <a href="tel:18555039794;">1 855 503 9794</a>
+                  <a href="tel:+18555039794">1 855 503 9794</a>
                 </p>
               </div>
               <div className="flex flex-col">
                 <p className="text-[11px] opacity-90">Dispatch</p>
                 <p className="text-sm font-bold flex flex-col">
-                  <a href="tel:4165039794;">(416) 503-9794</a>
+                  <a href="tel:+14165039794">(416) 503-9794</a>
                 </p>
               </div>
             </div>

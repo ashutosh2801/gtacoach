@@ -234,7 +234,7 @@ export default function AboutSection() {
           <div className="relative rounded-2xl overflow-hidden">
             <img
               src="../../banners/home-abt-1.jpg"
-              alt="Bus Service"
+              alt="Luxury coach bus parked outdoors representing GTACoach transportation services"
               width={420}
               height={520}
               className="object-cover rounded-2xl"
@@ -242,10 +242,10 @@ export default function AboutSection() {
           </div>
 
           {/* Small Overlay Image */}
-          <div className="absolute top-8 md:right-15 lg:-right-2 xl:-right-10 bg-white p-2 rounded-xl shadow-xl hidden md:block">
+          <div className="absolute top-8 md:right-15 lg:-right-2 xl:-right-5 bg-white p-2 rounded-xl shadow-xl hidden md:block">
             <img
               src="../../banners/home-abt-2.jpg"
-              alt="Passenger"
+              alt="Passenger seated comfortably inside modern coach bus interior"
               width={250}
               height={260}
               className="rounded-lg object-cover"

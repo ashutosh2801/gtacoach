@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-6">
               <img
                 src="../../footer-logo.png"
-                alt="Shuttle Bus Charter Service"
+                alt="GTACoach - Charter Bus Rental Toronto"
                 className=""
                 width={200}
                 height={40}
@@ -69,8 +69,8 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-4 text-gray-300 text-sm">
               <li><a href="/" className="hover:text-white">Home</a></li>
-              <li><a href="/about-us" className="hover:text-white">About Us</a></li>
-              {/* <li><a href="/services" className="hover:text-white">Services</a></li> */}
+              {/* <li><a href="/about-us" className="hover:text-white">About Us</a></li> */}
+              <li><a href="/services" className="hover:text-white">Services</a></li>
               <li><a href="/fleet" className="hover:text-white">Bus Fleet</a></li>
               <li><a href="/get-quote" className="hover:text-white">Online Request</a></li>
               <li><a href="/careers" className="hover:text-white">Careers</a></li>
@@ -82,12 +82,12 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Services</h4>
             <ul className="space-y-4 text-gray-300 text-sm">
-              <li><a href="/services" className="hover:text-white">Group Charters</a></li>
-              <li><a href="/services" className="hover:text-white">Group Sporting Events</a></li>
-              <li><a href="/services" className="hover:text-white">Airport Shuttles & Transfers</a></li>
-              <li><a href="/services" className="hover:text-white">Corporate Events</a></li>
-              <li><a href="/services" className="hover:text-white">City Tours</a></li>
-              <li><a href="/services" className="hover:text-white">Casino Charters</a></li>
+              <li><a href="/services#GroupCharters" className="hover:text-white">Group Charters</a></li>
+              <li><a href="/services#SportingEvents" className="hover:text-white">Group Sporting Events</a></li>
+              <li><a href="/services#AirportShuttles" className="hover:text-white">Airport Shuttles & Transfers</a></li>
+              <li><a href="/services#CorporateEvents" className="hover:text-white">Corporate Events</a></li>
+              <li><a href="/services#CityTours" className="hover:text-white">City Tours</a></li>
+              <li><a href="/services#CasinoCharters" className="hover:text-white">Casino Charters</a></li>
             </ul>
           </div>
 
@@ -110,14 +110,14 @@ export default function Footer() {
 
               <li className="flex gap-3">
                 <PhoneIcon className="w-5 h-5 webText" />
-                <a href="tel:18555039794" className="hover:text-white">
+                <a href="tel:+18555039794" className="hover:text-white">
                   Toll free: 1 855 503 9794
                 </a>
               </li>
 
               <li className="flex gap-3">
                 <FontAwesomeIcon icon={faMobile} className='w-5 h-5 webText' />
-                <a href="tel:4165039794" className="hover:text-white">Dispatch: (416) 503-9794</a>
+                <a href="tel:+14165039794" className="hover:text-white">Dispatch: (416) 503-9794</a>
               </li>
             </ul>
 

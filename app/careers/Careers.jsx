@@ -58,7 +58,7 @@ const Careers = () => {
                     </h2>
 
                     <p className="text-gray-600 text-sm mb-6 leading-relaxed">
-                    At <span className="font-semibold text-gray-800">GTA Crew Services</span>, 
+                    At <span className="font-semibold text-gray-800">GTACoach</span>, 
                     we are always looking to hire the very best drivers with the proper 
                     qualifications, who can provide the very best in customer service 
                     and safety when it comes to driving.
@@ -72,7 +72,7 @@ const Careers = () => {
                     </p>
 
                     <p className="text-gray-600 text-sm leading-relaxed">
-                    Thank you for your interest in GTA Crew Services, however only 
+                    Thank you for your interest in GTACoach, however only 
                     chosen candidates will be contacted.
                     </p>
                 </div>
@@ -91,7 +91,7 @@ const Careers = () => {
                     <div className="space-y-5">
 
                         {/* Fax */}
-                        <div className="p-4 rounded-lg bg-gray-50 border border-gray-200">
+                        {/* <div className="p-4 rounded-lg bg-gray-50 border border-gray-200">
                             <p className="text-sm text-gray-700">Fax Your Resume</p>
                             <a
                             href="tel:8555039794"
@@ -99,7 +99,7 @@ const Careers = () => {
                             >
                             (855) 503-9794
                             </a>
-                        </div>
+                        </div> */}
 
                         {/* Email */}
                         <div className="p-4 rounded-lg bg-gray-50 border border-gray-200">

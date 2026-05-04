@@ -7,7 +7,7 @@ const Banner = () => {
       {/* Background Image */}
       <img
         src="../../banners/quote-banner.jpg"
-        alt="Bus Rental"
+        alt="Bus Rental in Toronto"
         className="absolute w-full h-[520px] md:h-full object-cover"
       />
 

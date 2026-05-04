@@ -5,31 +5,37 @@ import Link from "next/link";
 
 const services = [
   {
+    location: "GroupCharters",
     title: "Group Charters to Canada/USA",
     image: "/services/1.jpg",
     desc: "Travel together with ease — our group charter services are perfect for family reunions, school trips, large tours, and event groups. From planning to departure, we ensure punctual service and comfortable rides so your entire group can focus on the experience ahead.",
   },
   {
+    location: "SportingEvents",
     title: "Group Sporting Events",
     image: "/services/2.jpg",
     desc: "Make every game day memorable. We provide efficient, reliable transportation for sports teams and fan groups to tournaments, matches, and championships. With ample luggage space for equipment and experienced professional drivers, we help your team arrive prepared and on time.",
   },
   {
+    location: "AirportShuttles",
     title: "Airport Shuttles & Transfers",
     image: "/services/3.jpg",
     desc: "Say goodbye to travel stress with our airport shuttle services. We provide timely pickups and drop-offs at all major airports, with plenty of luggage room and a comfortable ride — ideal for corporate travellers, families, or large groups heading to flights.",
   },
   {
+    location: "CorporateEvents",
     title: "Corporate Events",
     image: "/services/4.jpg",
     desc: "Arrive in style and on schedule with GTACoach’s corporate travel solutions. From executive airport transfers to team retreats and industry conferences, we handle your group’s itinerary with professionalism and flexibility so you can focus on your business goals.",
   },
   {
+    location: "CityTours",
     title: "City Tours",
     image: "/services/5.jpg",
     desc: "Explore iconic destinations and hidden gems with our guided or self-paced city tours. Our modern coaches offer comfort and convenience as you discover downtown areas, regional attractions, and scenic highlights — perfect for tourists, clubs, and leisure groups.",
   },
   {
+    location: "CasinoCharters",
     title: "Casino Charters",
     image: "/services/6.jpg",
     desc: "Turn your night out into a hassle-free adventure. Our casino charter services take you and your group directly to your destination in comfort, with flexible scheduling and plenty of room for belongings. Ride together, relax together, and enjoy the journey.",
@@ -85,6 +91,7 @@ export default function Services() {
             {services.map((service, index) => (
               <div
                 key={index}
+                id={service.location}
                 className="group bg-white rounded-3xl transition-all duration-500 overflow-hidden border border-gray-100"
               >
                 {/* Image */}
