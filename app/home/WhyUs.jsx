@@ -17,7 +17,7 @@ export default function WhyUs() {
             <p className="webText font-semibold mb-3 text-sm uppercase tracking-widest">
                 Why Choose Us
             </p>
-          <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 leading-tight mb-10">
+          <h1 className="text-3xl lg:text-4xl font-semibold text-gray-900 leading-tight mb-10">
             GTACoach is the <br />
              best choice for your <br />
             {" "}
@@ -25,13 +25,13 @@ export default function WhyUs() {
               Bus Charter
               <span className="absolute left-0 bottom-1.5 w-full h-[10px] webBG z-[-1] opacity-60"></span>
             </span>{" "}
-          </h2>
+          </h1>
 
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
               src="../../banners/why-us.jpg"
-              alt="Charter Bus"
+              alt="GTACoach charter bus providing safe and reliable group transportation"
               className="object-cover w-full h-full lg:h-95"
             />
           </div>

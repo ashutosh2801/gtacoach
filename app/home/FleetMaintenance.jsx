@@ -12,7 +12,7 @@ export default function FleetMaintenance() {
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src="../../banners/home-safe-1.jpg"
-              alt="Fleet Maintenance"
+              alt="GTACoach fleet maintenance facility ensuring safe and reliable bus operations"
               width={400}
               height={400}
               className="object-cover rounded-2xl"
@@ -23,7 +23,7 @@ export default function FleetMaintenance() {
           <div className="absolute -bottom-10 md:-right-0 xl:-right-10 bg-white p-2 rounded-xl shadow-xl hidden md:block">
             <img
               src="../../banners/home-safe-2.jpg"
-              alt="Bus Service"
+              alt="Technician performing inspection and maintenance on a charter bus"
               width={300}
               height={200}
               className="rounded-lg object-cover"

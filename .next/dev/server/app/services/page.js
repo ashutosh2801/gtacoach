@@ -9,7 +9,7 @@ R.c("server/chunks/ssr/node_modules_@fortawesome_fontawesome-svg-core_index_mjs_
 R.c("server/chunks/ssr/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_aad4a789._.js")
 R.c("server/chunks/ssr/node_modules_react-icons_fa_index_mjs_8e3a79ec._.js")
 R.c("server/chunks/ssr/node_modules_react-icons_lib_2ebb85a8._.js")
-R.c("server/chunks/ssr/node_modules_fbd68c3b._.js")
+R.c("server/chunks/ssr/node_modules_8cc968cb._.js")
 R.c("server/chunks/ssr/app_7f00a50d._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_9774470f._.js")
 R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_45780354.js")

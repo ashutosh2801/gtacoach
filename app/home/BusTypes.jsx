@@ -70,18 +70,18 @@ export default function BusTypes() {
                             <a href="/fleet">
                                 <img
                                 src="../../buses/1.webp"
-                                alt="Coach Buses"
+                                alt="Luxury coach bus with reclining seats for long-distance group travel"
                                 className="mx-auto h-55 object-contain p-10"
                                 />
                             </a>
                         </div>
                         <div className="p-6 min-h-[180px]">
                             <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Coach Buses</a></h3>
-                            <ul className="space-y-3 text-gray-600 text-sm">
-                            <li className="flex gap-2 ">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                            Luxury full-size coaches designed for corporate events, long-distance tours, and premium group.
-                            </li>
+                            <ul className="space-y-3 text-gray-600 text-sm md:h-[60px]">
+                                <li className="flex gap-2 ">
+                                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
+                                Luxury full-size coaches designed for corporate events, long-distance tours, and premium group travel.
+                                </li>
                             </ul>
                             <div className="text-center">
                                 <a
@@ -107,18 +107,18 @@ export default function BusTypes() {
                             <a href="/fleet">
                             <img
                             src="../../buses/2.webp"
-                            alt="Coach Buses"
+                            alt="Modern mini bus for corporate events and small group transportation"
                             className="mx-auto h-55 object-contain p-10"
                             />
                             </a>
                         </div>
                         <div className="p-6 min-h-[180px]">
                             <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Mini Buses</a></h3>
-                            <ul className="space-y-3 text-gray-600 text-sm">
-                            <li className="flex gap-2 line-clamp-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Premium mid-size vehicles ideal for corporate outings, private events, and airport transfers.
-                            </li>
+                            <ul className="space-y-3 text-gray-600 text-sm md:h-[60px]">
+                                <li className="flex gap-2 line-clamp-2">
+                                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
+                                    Premium mid-size vehicles ideal for corporate outings, private events, and seamless airport transfers.
+                                </li>
                             </ul>
                             <div className="text-center">
                                 <a
@@ -186,18 +186,18 @@ export default function BusTypes() {
                             <a href="/fleet">
                             <img
                             src="../../buses/4.webp"
-                            alt="Coach Buses"
+                            alt="Executive sprinter van for VIP and private group travel"
                             className="mx-auto h-55 object-contain p-10"
                             />
                             </a>
                         </div>
                         <div className="p-6 min-h-[180px]">
                             <h3 className="text-xl font-semibold mb-4"><a href="/fleet">Sprinter Vans</a></h3>
-                            <ul className="space-y-3 text-gray-600 text-sm">
-                            <li className="flex gap-2">
-                                <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                Executive-style vans perfect for small groups, corporate executives, and VIP clients.
-                            </li>
+                            <ul className="space-y-3 text-gray-600 text-sm md:h-[60px]">
+                                <li className="flex gap-2">
+                                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0" />
+                                    Luxury sprinter vans tailored for small groups, VIP clients, and refined private transportation.
+                                </li>
                             </ul>
                             <div className="text-center">
                                 <a
