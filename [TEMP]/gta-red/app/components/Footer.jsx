@@ -80,7 +80,7 @@ export default function Footer() {
               <li className="flex gap-3">
                 <MapPinIcon className="w-5 h-5 webText" />
                 <span>
-                  	16 Arnold Street Toronto, ON, M8Z5A6
+                  	16 Arnold Street Toronto, ON, M8Z5A6.
                 </span>
               </li>
 
