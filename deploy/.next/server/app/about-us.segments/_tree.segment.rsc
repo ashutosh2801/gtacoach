@@ -1,0 +1,12 @@
+:HL["/_next/static/chunks/94963836a35caa59.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap","style"]
+:HL["../../footer-logo.png","image"]
+:HL["../../slides/about-slide.jpg","image"]
+:HL["../../about/banner-1.jpg","image"]
+:HL["../../about/banner-2.jpg","image"]
+:HL["../../about/banner-3.jpg","image"]
+:HL["../../about/banner-4.jpg","image"]
+:HL["../../about/banner-5.jpg","image"]
+:HL["../../about/banner-6.jpg","image"]
+:HL["../../about/banner-7.jpg","image"]
+0:{"buildId":"iIQU45l3XP67LUc9H0MBG","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about-us","paramType":null,"paramKey":"about-us","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

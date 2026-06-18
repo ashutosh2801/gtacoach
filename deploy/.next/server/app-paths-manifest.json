@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/fleet/page": "app/fleet/page.js",
+  "/get-quote/page": "app/get-quote/page.js",
+  "/home/page": "app/home/page.js",
+  "/page": "app/page.js",
+  "/services/page": "app/services/page.js"
+}
