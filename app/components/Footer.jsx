@@ -75,6 +75,7 @@ export default function Footer() {
               <li><a href="/get-quote" className="hover:text-white">Online Request</a></li>
               <li><a href="/careers" className="hover:text-white">Careers</a></li>
               <li><a href="/contact-us" className="hover:text-white">Contact Us</a></li>
+              <li><a href="/blog" className="hover:text-white">Blog</a></li>
             </ul>
           </div>
 
