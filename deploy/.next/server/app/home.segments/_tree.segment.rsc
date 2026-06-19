@@ -7,4 +7,4 @@
 :HL["../../banners/home-safe-1.jpg","image"]
 :HL["../../banners/home-safe-2.jpg","image"]
 :HL["../../banners/quote-banner.jpg","image"]
-0:{"buildId":"bLboC8SiLqp0ZO82jHPdP","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"home","paramType":null,"paramKey":"home","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"piArwJBWw7cZaSOIfPQLB","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"home","paramType":null,"paramKey":"home","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

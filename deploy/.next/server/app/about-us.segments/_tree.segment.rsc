@@ -9,4 +9,4 @@
 :HL["../../about/banner-5.jpg","image"]
 :HL["../../about/banner-6.jpg","image"]
 :HL["../../about/banner-7.jpg","image"]
-0:{"buildId":"bLboC8SiLqp0ZO82jHPdP","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about-us","paramType":null,"paramKey":"about-us","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"piArwJBWw7cZaSOIfPQLB","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about-us","paramType":null,"paramKey":"about-us","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
